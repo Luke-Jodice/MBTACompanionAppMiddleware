@@ -148,10 +148,18 @@ const mbtaGraph = {
     "Blandford Street": { "Kenmore": { lines: ["Green-B"] }, "Boston University East": { lines: ["Green-B"] } },
     "Cleveland Circle": { "Englewood Avenue": { lines: ["Green-C"] } },
     "Riverside": { "Woodland": { lines: ["Green-D"] } },
-    "Heath Street": { "Back of the Hill": { lines: ["Green-E"] } },
+    //GreenLine - E Heath Street
     "Prudential": { "Copley": { lines: ["Green-E"] }, "Symphony": { lines: ["Green-E"] } },
     "Symphony": { "Prudential": { lines: ["Green-E"] }, "Northeastern University": { lines: ["Green-E"] } },
     "Northeastern University": { "Symphony": { lines: ["Green-E"] }, "Museum of Fine Arts": { lines: ["Green-E"] } },
+    "Museum of Fine Arts": { "Northeastern University": {lines: ["Green-E"]}, "Longwood Medical Area":  { lines: ["Green-E"] } },
+    "Longwood Medical Area": {"Museum of Fine Arts" : { lines: ["Green-E"] } , "Brigham Circle":  { lines: ["Green-E"] } },
+    "Brigham Circle": {"Longwood Medical Area":  { lines: ["Green-E"] } , "Fenwood Road" :  { lines: ["Green-E"] } },
+    "Fenwood Road": {"Brigham Cirlce":  { lines: ["Green-E"] } , "Mission Park":  { lines: ["Green-E"] } },
+    "Mission Park": {"Fenwood Park":  { lines: ["Green-E"] } , "Riverway":  { lines: ["Green-E"] } },
+    "Riverway": {"Mission Park":  { lines: ["Green-E"] } , "Back of the Hill":  { lines: ["Green-E"] } },
+    "Back of the Hill": {"Riverway":  { lines: ["Green-E"] } , "Heath Street": { lines: ["Green-E"] } },
+    "Heath Street": { "Back of the Hill": { lines: ["Green-E"] } },
     // ... more Green Line stops can be added here following the same pattern
   };
   
