@@ -3,7 +3,21 @@ import fs from 'fs';
 
 const app = new Hono();
 
-// Basic routes
+// Start the server
+const port = 3000;
+console.log(`🚀 Server running at http://localhost:${port}`);
+
+//Load data
+
+
+//Build Doublely Linked List
+
+
+
+//
+//Endpoints for testing
+//
+
 app.get('/', (c) => {
   return c.text('Welcome to MBTA Middle API!');
 });
@@ -23,25 +37,17 @@ app.get('/hello', (c) => {
   });
 });
 
-// New endpoint to get ordered stops for a specific line and direction
-app.get('/ordered-stops/:lineName/:direction', (c) => {
-  const lineName = c.req.param('lineName');
-  const direction = c.req.param('direction');
-  
-  const stops = getOrderedStopsForLineAndDirection(lineName, direction);
-  
-  return c.json({
-  });
-});
+//
+//Train Endpoints
+//
+
 
 //gives the path from one to another
 app.get('/route/:start/:end', (c) =>{
 
 });
 
-// Start the server
-const port = 3000;
-console.log(`🚀 Server running at http://localhost:${port}`);
+
 
 export default {
   port,
