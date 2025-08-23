@@ -22,14 +22,14 @@
 //   return c.text('Welcome to MBTA Middle API!');
 // });
 
-// app.get('/api/health', (c) => {
+// app.get('/health', (c) => {
 //   return c.json({
 //     status: 'healthy',
 //     timestamp: new Date().toISOString()
 //   });
 // });
 
-// app.get('/api/hello', (c) => {
+// app.get('/hello', (c) => {
 //   const name = c.req.query('name') || 'World';
 //   return c.json({
 //     message: `Hello, ${name}!`,
@@ -50,97 +50,6 @@ import { Hono } from 'hono';
 import fs from 'fs';
 
 const app = new Hono();
-
-// MBTA Line Order Mappings - These define the proper sequence for each line
-const LINE_ORDERS = {
-  'Red Line': {
-    'Alewife': [
-      'Alewife', 'Davis', 'Porter', 'Harvard', 'Central', 'Kendall/MIT', 
-      'Charles/MGH', 'Park Street', 'Downtown Crossing', 'South Station', 
-      'Broadway', 'Andrew', 'JFK/UMass', 'Savin Hill', 'Fields Corner', 
-      'Shawmut', 'Ashmont', 'North Quincy', 'Wollaston', 'Quincy Center', 
-      'Quincy Adams', 'Braintree'
-    ],
-    'Ashmont/Braintree': [
-      'Braintree', 'Quincy Adams', 'Quincy Center', 'Wollaston', 'North Quincy', 
-      'Ashmont', 'Shawmut', 'Fields Corner', 'Savin Hill', 'JFK/UMass', 
-      'Andrew', 'Broadway', 'South Station', 'Downtown Crossing', 'Park Street', 
-      'Charles/MGH', 'Kendall/MIT', 'Central', 'Harvard', 'Davis', 'Alewife'
-    ]
-  },
-  'Orange Line': {
-    'Oak Grove': [
-      'Oak Grove', 'Malden Center', 'Wellington', 'Assembly', 'Sullivan Square', 
-      'Community College', 'North Station', 'Haymarket', 'State', 'Downtown Crossing', 
-      'Chinatown', 'Tufts Medical Center', 'Back Bay', 'Massachusetts Avenue', 
-      'Ruggles', 'Roxbury Crossing', 'Jackson Square', 'Stony Brook', 'Green Street', 
-      'Forest Hills'
-    ],
-    'Forest Hills': [
-      'Forest Hills', 'Green Street', 'Stony Brook', 'Jackson Square', 
-      'Roxbury Crossing', 'Ruggles', 'Massachusetts Avenue', 'Back Bay', 
-      'Tufts Medical Center', 'Chinatown', 'Downtown Crossing', 'State', 
-      'Haymarket', 'North Station', 'Community College', 'Sullivan Square', 
-      'Assembly', 'Wellington', 'Malden Center', 'Oak Grove'
-    ]
-  },
-  'Blue Line': {
-    'Wonderland': [
-      'Wonderland', 'Revere Beach', 'Beachmont', 'Suffolk Downs', 'Orient Heights', 
-      'Wood Island', 'Airport', 'Maverick', 'Aquarium', 'State', 'Government Center', 
-      'Bowdoin'
-    ],
-    'Bowdoin': [
-      'Bowdoin', 'Government Center', 'State', 'Aquarium', 'Maverick', 'Airport', 
-      'Wood Island', 'Orient Heights', 'Suffolk Downs', 'Beachmont', 'Revere Beach', 
-      'Wonderland'
-    ]
-  },
-  'Green Line': {
-    'Lechmere & North': [
-      'Lechmere', 'Science Park/West End', 'North Station', 'Haymarket', 
-      'Government Center', 'Park Street', 'Boylston', 'Arlington', 'Copley', 
-      'Hynes Convention Center', 'Kenmore'
-    ],
-    'Kenmore & West': [
-      'Kenmore', 'Hynes Convention Center', 'Copley', 'Arlington', 'Boylston', 
-      'Park Street', 'Government Center', 'Haymarket', 'North Station', 
-      'Science Park/West End', 'Lechmere'
-    ],
-    'Cleveland Circle': [
-      'Cleveland Circle', 'Dean Road', 'Tappan Street', 'Washington Square', 
-      'Fairbanks Street', 'Reservoir', 'Chestnut Hill', 'Newton Centre', 
-      'Newton Highlands', 'Eliot', 'Waban', 'Woodland', 'Riverside'
-    ],
-    'Heath Street': [
-      'Heath Street', 'Back of the Hill', 'Riverway', 'Mission Park', 
-      'Fenwood Road', 'Brigham Circle', 'Longwood Medical Area', 'Museum of Fine Arts', 
-      'Northeastern University', 'Symphony', 'Prudential', 'Copley', 'Arlington', 
-      'Boylston', 'Park Street', 'Government Center', 'Haymarket', 'North Station', 
-      'Science Park/West End', 'Lechmere'
-    ]
-  },
-  'Silver Line': {
-    'South Station': [
-      'South Station', 'Silver Line Way', 'Design Center', 'Eastern Avenue', 
-      'Box District', 'Airport', 'Chelsea'
-    ],
-    'Chelsea': [
-      'Chelsea', 'Airport', 'Box District', 'Eastern Avenue', 'Design Center', 
-      'Silver Line Way', 'South Station'
-    ]
-  },
-  'Mattapan Trolley': {
-    'Ashmont': [
-      'Ashmont', 'Cedar Grove', 'Butler', 'Milton', 'Central Avenue', 
-      'Valley Road', 'Capen Street', 'Mattapan'
-    ],
-    'Mattapan': [
-      'Mattapan', 'Capen Street', 'Valley Road', 'Central Avenue', 'Milton', 
-      'Butler', 'Cedar Grove', 'Ashmont'
-    ]
-  }
-};
 
 // Function to extract train line name from stop description
 function extractTrainLineName(description) {
@@ -315,14 +224,14 @@ app.get('/', (c) => {
   return c.text('Welcome to MBTA Middle API!');
 });
 
-app.get('/api/health', (c) => {
+app.get('/health', (c) => {
   return c.json({
     status: 'healthy',
     timestamp: new Date().toISOString()
   });
 });
 
-app.get('/api/hello', (c) => {
+app.get('/hello', (c) => {
   const name = c.req.query('name') || 'World';
   return c.json({
     message: `Hello, ${name}!`,
@@ -331,7 +240,7 @@ app.get('/api/hello', (c) => {
 });
 
 // Enhanced endpoint with ordered stops
-app.get('/api/rapid-transit-stops', (c) => {
+app.get('/rapid-transit-stops', (c) => {
   const stops = getCombinedRapidTransitData();
   
   return c.json({
@@ -343,7 +252,7 @@ app.get('/api/rapid-transit-stops', (c) => {
 });
 
 // New endpoint to get ordered stops for a specific line and direction
-app.get('/api/ordered-stops/:lineName/:direction', (c) => {
+app.get('/ordered-stops/:lineName/:direction', (c) => {
   const lineName = c.req.param('lineName');
   const direction = c.req.param('direction');
   
@@ -360,7 +269,7 @@ app.get('/api/ordered-stops/:lineName/:direction', (c) => {
 });
 
 // New endpoint to get all available line orders
-app.get('/api/line-orders', (c) => {
+app.get('/line-orders', (c) => {
   const lineOrders = Object.keys(LINE_ORDERS).map(lineName => ({
     lineName: lineName,
     directions: Object.keys(LINE_ORDERS[lineName]),
@@ -373,6 +282,11 @@ app.get('/api/line-orders', (c) => {
     total: lineOrders.length,
     timestamp: new Date().toISOString()
   });
+});
+
+//gives the path from one to another
+app.get('/route/:start/:end', (c) =>{
+
 });
 
 // Start the server
