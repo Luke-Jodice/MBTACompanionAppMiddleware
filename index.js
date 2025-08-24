@@ -129,10 +129,19 @@ app.get('/line/:name', (c) => {
 });
 
 
-
 //Train Route
 app.get('/route/:start/:end', (c) =>{
 });
+
+//
+//Live data
+//
+
+//given current stop, what are the next 3 trains coming to it in each direction
+
+//given the current stop what are the next 3 trains coming inbound
+
+//given the current stop, what are the next 3 trains coming outbound
 
 
 
