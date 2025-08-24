@@ -1,5 +1,5 @@
 import { Hono } from 'hono';
-import { TStop, StopManager } from './stops';
+import { StopManager } from './obj/stopmanager';
 
 //
 //Load data//
