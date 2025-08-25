@@ -138,8 +138,17 @@ app.get('/route/:start/:end', (c) =>{
 //Live data
 //
 
-app.get('/times/both/:stopId/:nextnum', (c) =>{
+app.get('/times/both/:stopId/:nextnum', async (c) =>{
+  const stopid = c.req.param('stopId');
+  const next = c.req.param('nextnum');
 
+  const inbound = await getNextThree(stopid,0,next);
+  const outbound = await getNextThree(stopid,1,next);
+
+  return c.json({
+    inbound : inbound,
+    outboud : outbound
+  });
 });
 
 
@@ -156,7 +165,15 @@ app.get('/times/in/:stopId/:nextnum', async (c) =>{
 });
 
 //given the current stop, what are the next 3 trains coming outbound
-app.get('/times/out/:stopId/:nextnum', (c) =>{
+app.get('/times/out/:stopId/:nextnum', async (c) =>{
+  const stopid = c.req.param('stopId');
+  const next = c.req.param('nextnum');
+
+  const resp = await getNextThree(stopid,0,next);
+
+  return c.json({
+    data : resp
+  });
 });
 
 
