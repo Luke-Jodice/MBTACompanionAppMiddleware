@@ -1,5 +1,6 @@
 import { Hono } from 'hono';
 import { StopManager } from './obj/stopmanager';
+import { getNextThree } from './livedata';
 
 //
 //Load data//
@@ -137,12 +138,26 @@ app.get('/route/:start/:end', (c) =>{
 //Live data
 //
 
-//given current stop, what are the next 3 trains coming to it in each direction
+app.get('/times/both/:stopId/:nextnum', (c) =>{
+
+});
+
 
 //given the current stop what are the next 3 trains coming inbound
+app.get('/times/in/:stopId/:nextnum', async (c) =>{
+  const stopid = c.req.param('stopId');
+  const next = c.req.param('nextnum');
+
+  const resp = await getNextThree(stopid,0,next);
+
+  return c.json({
+    data : resp
+  });
+});
 
 //given the current stop, what are the next 3 trains coming outbound
-
+app.get('/times/out/:stopId/:nextnum', (c) =>{
+});
 
 
 export default {
