@@ -5,7 +5,7 @@ import { getNextThree } from './livedata';
 //
 //Load data//
 //
-import stopdata from './Data/orgstops-e.json';
+import stopdata from './orgstops-e.json';
 const stopManager = new StopManager(stopdata.stops);
 
 
