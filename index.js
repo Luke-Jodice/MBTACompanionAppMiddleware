@@ -139,41 +139,97 @@ app.get('/route/:start/:end', (c) =>{
 //
 
 app.get('/times/both/:stopId/:nextnum', async (c) =>{
-  const stopid = c.req.param('stopId');
-  const next = c.req.param('nextnum');
+  try {
+    const stopid = c.req.param('stopId');
+    const next = parseInt(c.req.param('nextnum'));
 
-  const inbound = await getNextThree(stopid,0,next);
-  const outbound = await getNextThree(stopid,1,next);
+    if (!stopid) {
+      return c.json({
+        status: "400",
+        error: "Stop ID is required"
+      }, 400);
+    }
 
-  return c.json({
-    inbound : inbound,
-    outboud : outbound
-  });
+    const inbound = await getNextThree(stopid, 0, next);
+    const outbound = await getNextThree(stopid, 1, next);
+
+    return c.json({
+      status: "200",
+      stopId: stopid,
+      inbound: inbound,
+      outbound: outbound
+    });
+  } catch (error) {
+    console.error('Error in /times/both:', error);
+    return c.json({
+      status: "500",
+      error: "Internal server error",
+      message: error.message
+    }, 500);
+  }
 });
 
 
 //given the current stop what are the next 3 trains coming inbound
 app.get('/times/in/:stopId/:nextnum', async (c) =>{
-  const stopid = c.req.param('stopId');
-  const next = c.req.param('nextnum');
+  try {
+    const stopid = c.req.param('stopId');
+    const next = parseInt(c.req.param('nextnum'));
 
-  const resp = await getNextThree(stopid,0,next);
+    if (!stopid) {
+      return c.json({
+        status: "400",
+        error: "Stop ID is required"
+      }, 400);
+    }
 
-  return c.json({
-    data : resp
-  });
+    const resp = await getNextThree(stopid, 0, next);
+
+    return c.json({
+      status: "200",
+      stopId: stopid,
+      direction: "inbound",
+      data: resp
+    });
+  } catch (error) {
+    console.error('Error in /times/in:', error);
+    return c.json({
+      status: "500",
+      error: "Internal server error",
+      message: error.message
+    }, 500);
+  }
 });
 
 //given the current stop, what are the next 3 trains coming outbound
 app.get('/times/out/:stopId/:nextnum', async (c) =>{
-  const stopid = c.req.param('stopId');
-  const next = c.req.param('nextnum');
+  try {
+    const stopid = c.req.param('stopId');
+    const next = parseInt(c.req.param('nextnum'));
 
-  const resp = await getNextThree(stopid,0,next);
+    if (!stopid) {
+      return c.json({
+        status: "400",
+        error: "Stop ID is required"
+      }, 400);
+    }
 
-  return c.json({
-    data : resp
-  });
+    const resp = await getNextThree(stopid, 1, next);
+
+    return c.json({
+      status: "200",
+      stopId: stopid,
+      direction: "outbound",
+      data: resp
+    });
+  } catch (error) {
+    console.error('Error in /times/out:', error);
+    return c.json({
+      status: "500",
+      error: "Internal server error",
+      message: error.message
+    }, 500);
+  }
 });
 
 
