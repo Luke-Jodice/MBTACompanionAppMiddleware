@@ -32,9 +32,9 @@ console.log(`🚀 Server running at http://localhost:${port}`);
 //Endpoints for testing
 //
 
-app.get('/', (c) => {
-  return c.text('Welcome to MBTA Middle API!');
-});
+// app.get('/', (c) => {
+//   return c.text('Welcome to MBTA Middle API!');
+// });
 
 app.get('/health', (c) => {
   return c.json({
