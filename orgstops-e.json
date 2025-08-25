@@ -1,0 +1,2645 @@
+{
+  "metadata": {
+    "created_at": "2025-08-23T02:27:51.228Z",
+    "total_train_stops": 106,
+    "description": "Combined train stops with line, order, and connection information"
+  },
+  "stops": [
+    {
+      "id": "70041",
+      "name": "State",
+      "latitude": 42.358978,
+      "longitude": -71.057598,
+      "municipality": "Boston",
+      "wheelchair_boarding": 1,
+      "platform_name": "Bowdoin",
+      "train_line": "Blue Line",
+      "direction": "Bowdoin",
+      "line_color": "003DA5",
+      "line_text_color": "FFFFFF",
+      "line_order_index": -1,
+      "total_stops_in_line": 0,
+      "orderIndex": 1,
+      "connections": [
+        "Government Center",
+        "Aquarium"
+      ],
+      "transfer_stations": [],
+      "is_transfer_station": false,
+      "previous_stop": {
+        "id": "70039",
+        "name": "Government Center",
+        "description": "Government Center - Blue Line - Bowdoin",
+        "orderIndex": 0
+      },
+      "next_stop": {
+        "id": "70043",
+        "name": "Aquarium",
+        "description": "Aquarium - Blue Line - Bowdoin",
+        "orderIndex": 2
+      },
+      "description": "State - Blue Line - Bowdoin"
+    },
+    {
+      "id": "70043",
+      "name": "Aquarium",
+      "latitude": 42.359784,
+      "longitude": -71.051652,
+      "municipality": "Boston",
+      "wheelchair_boarding": 1,
+      "platform_name": "Bowdoin",
+      "train_line": "Blue Line",
+      "direction": "Bowdoin",
+      "line_color": "003DA5",
+      "line_text_color": "FFFFFF",
+      "line_order_index": -1,
+      "total_stops_in_line": 0,
+      "orderIndex": 2,
+      "connections": [
+        "State",
+        "Maverick"
+      ],
+      "transfer_stations": [],
+      "is_transfer_station": false,
+      "previous_stop": {
+        "id": "70041",
+        "name": "State",
+        "description": "State - Blue Line - Bowdoin",
+        "orderIndex": 1
+      },
+      "next_stop": {
+        "id": "70045",
+        "name": "Maverick",
+        "description": "Maverick - Blue Line - Bowdoin",
+        "orderIndex": 3
+      },
+      "description": "Aquarium - Blue Line - Bowdoin"
+    },
+    {
+      "id": "70054",
+      "name": "Suffolk Downs",
+      "latitude": 42.39061,
+      "longitude": -70.99703,
+      "municipality": "Boston",
+      "wheelchair_boarding": 1,
+      "platform_name": "Wonderland",
+      "train_line": "Blue Line",
+      "direction": "Wonderland",
+      "line_color": "003DA5",
+      "line_text_color": "FFFFFF",
+      "line_order_index": -1,
+      "total_stops_in_line": 0,
+      "orderIndex": 2,
+      "connections": [
+        "Orient Heights",
+        "Beachmont"
+      ],
+      "transfer_stations": [],
+      "is_transfer_station": false,
+      "previous_stop": {
+        "id": "70056",
+        "name": "Beachmont",
+        "description": "Beachmont - Blue Line - Wonderland",
+        "orderIndex": 1
+      },
+      "next_stop": {
+        "id": "70052",
+        "name": "Orient Heights",
+        "description": "Orient Heights - Blue Line - Wonderland",
+        "orderIndex": 3
+      },
+      "description": "Suffolk Downs - Blue Line - Wonderland"
+    },
+    {
+      "id": "70045",
+      "name": "Maverick",
+      "latitude": 42.369119,
+      "longitude": -71.03953,
+      "municipality": "Boston",
+      "wheelchair_boarding": 1,
+      "platform_name": "Bowdoin",
+      "train_line": "Blue Line",
+      "direction": "Bowdoin",
+      "line_color": "003DA5",
+      "line_text_color": "FFFFFF",
+      "line_order_index": -1,
+      "total_stops_in_line": 0,
+      "orderIndex": 3,
+      "connections": [
+        "Aquarium",
+        "Airport"
+      ],
+      "transfer_stations": [],
+      "is_transfer_station": false,
+      "previous_stop": {
+        "id": "70043",
+        "name": "Aquarium",
+        "description": "Aquarium - Blue Line - Bowdoin",
+        "orderIndex": 2
+      },
+      "next_stop": {
+        "id": "70047",
+        "name": "Airport",
+        "description": "Airport - Blue Line - Bowdoin",
+        "orderIndex": 4
+      },
+      "description": "Maverick - Blue Line - Bowdoin"
+    },
+    {
+      "id": "70052",
+      "name": "Orient Heights",
+      "latitude": 42.386842,
+      "longitude": -71.004767,
+      "municipality": "Boston",
+      "wheelchair_boarding": 1,
+      "platform_name": "Wonderland",
+      "train_line": "Blue Line",
+      "direction": "Wonderland",
+      "line_color": "003DA5",
+      "line_text_color": "FFFFFF",
+      "line_order_index": -1,
+      "total_stops_in_line": 0,
+      "orderIndex": 3,
+      "connections": [
+        "Wood Island",
+        "Suffolk Downs"
+      ],
+      "transfer_stations": [],
+      "is_transfer_station": false,
+      "previous_stop": {
+        "id": "70054",
+        "name": "Suffolk Downs",
+        "description": "Suffolk Downs - Blue Line - Wonderland",
+        "orderIndex": 2
+      },
+      "next_stop": {
+        "id": "70050",
+        "name": "Wood Island",
+        "description": "Wood Island - Blue Line - Wonderland",
+        "orderIndex": 4
+      },
+      "description": "Orient Heights - Blue Line - Wonderland"
+    },
+    {
+      "id": "70050",
+      "name": "Wood Island",
+      "latitude": 42.379671,
+      "longitude": -71.022783,
+      "municipality": "Boston",
+      "wheelchair_boarding": 1,
+      "platform_name": "Wonderland",
+      "train_line": "Blue Line",
+      "direction": "Wonderland",
+      "line_color": "003DA5",
+      "line_text_color": "FFFFFF",
+      "line_order_index": -1,
+      "total_stops_in_line": 0,
+      "orderIndex": 4,
+      "connections": [
+        "Airport",
+        "Orient Heights"
+      ],
+      "transfer_stations": [],
+      "is_transfer_station": false,
+      "previous_stop": {
+        "id": "70052",
+        "name": "Orient Heights",
+        "description": "Orient Heights - Blue Line - Wonderland",
+        "orderIndex": 3
+      },
+      "next_stop": {
+        "id": "70048",
+        "name": "Airport",
+        "description": "Airport - Blue Line - Wonderland",
+        "orderIndex": 5
+      },
+      "description": "Wood Island - Blue Line - Wonderland"
+    },
+    {
+      "id": "70047",
+      "name": "Airport",
+      "latitude": 42.374262,
+      "longitude": -71.030395,
+      "municipality": "Boston",
+      "wheelchair_boarding": 1,
+      "platform_name": "Bowdoin",
+      "train_line": "Blue Line",
+      "direction": "Bowdoin",
+      "line_color": "003DA5",
+      "line_text_color": "FFFFFF",
+      "line_order_index": -1,
+      "total_stops_in_line": 0,
+      "orderIndex": 4,
+      "connections": [
+        "Maverick",
+        "Wood Island"
+      ],
+      "transfer_stations": [],
+      "is_transfer_station": false,
+      "previous_stop": {
+        "id": "70045",
+        "name": "Maverick",
+        "description": "Maverick - Blue Line - Bowdoin",
+        "orderIndex": 3
+      },
+      "next_stop": {
+        "id": "70049",
+        "name": "Wood Island",
+        "description": "Wood Island - Blue Line - Bowdoin",
+        "orderIndex": 5
+      },
+      "description": "Airport - Blue Line - Bowdoin"
+    },
+    {
+      "id": "70048",
+      "name": "Airport",
+      "latitude": 42.374262,
+      "longitude": -71.030395,
+      "municipality": "Boston",
+      "wheelchair_boarding": 1,
+      "platform_name": "Wonderland",
+      "train_line": "Blue Line",
+      "direction": "Wonderland",
+      "line_color": "003DA5",
+      "line_text_color": "FFFFFF",
+      "line_order_index": -1,
+      "total_stops_in_line": 0,
+      "orderIndex": 5,
+      "connections": [
+        "Maverick",
+        "Wood Island"
+      ],
+      "transfer_stations": [],
+      "is_transfer_station": false,
+      "previous_stop": {
+        "id": "70050",
+        "name": "Wood Island",
+        "description": "Wood Island - Blue Line - Wonderland",
+        "orderIndex": 4
+      },
+      "next_stop": {
+        "id": "70046",
+        "name": "Maverick",
+        "description": "Maverick - Blue Line - Wonderland",
+        "orderIndex": 6
+      },
+      "description": "Airport - Blue Line - Wonderland"
+    },
+    {
+      "id": "70049",
+      "name": "Wood Island",
+      "latitude": 42.37974,
+      "longitude": -71.022818,
+      "municipality": "Boston",
+      "wheelchair_boarding": 1,
+      "platform_name": "Bowdoin",
+      "train_line": "Blue Line",
+      "direction": "Bowdoin",
+      "line_color": "003DA5",
+      "line_text_color": "FFFFFF",
+      "line_order_index": -1,
+      "total_stops_in_line": 0,
+      "orderIndex": 5,
+      "connections": [
+        "Airport",
+        "Orient Heights"
+      ],
+      "transfer_stations": [],
+      "is_transfer_station": false,
+      "previous_stop": {
+        "id": "70047",
+        "name": "Airport",
+        "description": "Airport - Blue Line - Bowdoin",
+        "orderIndex": 4
+      },
+      "next_stop": {
+        "id": "70051",
+        "name": "Orient Heights",
+        "description": "Orient Heights - Blue Line - Bowdoin",
+        "orderIndex": 6
+      },
+      "description": "Wood Island - Blue Line - Bowdoin"
+    },
+    {
+      "id": "70046",
+      "name": "Maverick",
+      "latitude": 42.369119,
+      "longitude": -71.03953,
+      "municipality": "Boston",
+      "wheelchair_boarding": 1,
+      "platform_name": "Wonderland",
+      "train_line": "Blue Line",
+      "direction": "Wonderland",
+      "line_color": "003DA5",
+      "line_text_color": "FFFFFF",
+      "line_order_index": -1,
+      "total_stops_in_line": 0,
+      "orderIndex": 6,
+      "connections": [
+        "Aquarium",
+        "Airport"
+      ],
+      "transfer_stations": [],
+      "is_transfer_station": false,
+      "previous_stop": {
+        "id": "70048",
+        "name": "Airport",
+        "description": "Airport - Blue Line - Wonderland",
+        "orderIndex": 5
+      },
+      "next_stop": {
+        "id": "70044",
+        "name": "Aquarium",
+        "description": "Aquarium - Blue Line - Wonderland",
+        "orderIndex": 7
+      },
+      "description": "Maverick - Blue Line - Wonderland"
+    },
+    {
+      "id": "70051",
+      "name": "Orient Heights",
+      "latitude": 42.386909,
+      "longitude": -71.004809,
+      "municipality": "Boston",
+      "wheelchair_boarding": 1,
+      "platform_name": "Bowdoin",
+      "train_line": "Blue Line",
+      "direction": "Bowdoin",
+      "line_color": "003DA5",
+      "line_text_color": "FFFFFF",
+      "line_order_index": -1,
+      "total_stops_in_line": 0,
+      "orderIndex": 6,
+      "connections": [
+        "Wood Island",
+        "Suffolk Downs"
+      ],
+      "transfer_stations": [],
+      "is_transfer_station": false,
+      "previous_stop": {
+        "id": "70049",
+        "name": "Wood Island",
+        "description": "Wood Island - Blue Line - Bowdoin",
+        "orderIndex": 5
+      },
+      "next_stop": {
+        "id": "70053",
+        "name": "Suffolk Downs",
+        "description": "Suffolk Downs - Blue Line - Bowdoin",
+        "orderIndex": 7
+      },
+      "description": "Orient Heights - Blue Line - Bowdoin"
+    },
+    {
+      "id": "70053",
+      "name": "Suffolk Downs",
+      "latitude": 42.390422,
+      "longitude": -70.997323,
+      "municipality": "Boston",
+      "wheelchair_boarding": 1,
+      "platform_name": "Bowdoin",
+      "train_line": "Blue Line",
+      "direction": "Bowdoin",
+      "line_color": "003DA5",
+      "line_text_color": "FFFFFF",
+      "line_order_index": -1,
+      "total_stops_in_line": 0,
+      "orderIndex": 7,
+      "connections": [
+        "Orient Heights",
+        "Beachmont"
+      ],
+      "transfer_stations": [],
+      "is_transfer_station": false,
+      "previous_stop": {
+        "id": "70051",
+        "name": "Orient Heights",
+        "description": "Orient Heights - Blue Line - Bowdoin",
+        "orderIndex": 6
+      },
+      "next_stop": {
+        "id": "70055",
+        "name": "Beachmont",
+        "description": "Beachmont - Blue Line - Bowdoin",
+        "orderIndex": 8
+      },
+      "description": "Suffolk Downs - Blue Line - Bowdoin"
+    },
+    {
+      "id": "70044",
+      "name": "Aquarium",
+      "latitude": 42.359784,
+      "longitude": -71.051652,
+      "municipality": "Boston",
+      "wheelchair_boarding": 1,
+      "platform_name": "Wonderland",
+      "train_line": "Blue Line",
+      "direction": "Wonderland",
+      "line_color": "003DA5",
+      "line_text_color": "FFFFFF",
+      "line_order_index": -1,
+      "total_stops_in_line": 0,
+      "orderIndex": 7,
+      "connections": [
+        "State",
+        "Maverick"
+      ],
+      "transfer_stations": [],
+      "is_transfer_station": false,
+      "previous_stop": {
+        "id": "70046",
+        "name": "Maverick",
+        "description": "Maverick - Blue Line - Wonderland",
+        "orderIndex": 6
+      },
+      "next_stop": {
+        "id": "70042",
+        "name": "State",
+        "description": "State - Blue Line - Wonderland",
+        "orderIndex": 8
+      },
+      "description": "Aquarium - Blue Line - Wonderland"
+    },
+    {
+      "id": "70055",
+      "name": "Beachmont",
+      "latitude": 42.397219,
+      "longitude": -70.992647,
+      "municipality": "Revere",
+      "wheelchair_boarding": 1,
+      "platform_name": "Bowdoin",
+      "train_line": "Blue Line",
+      "direction": "Bowdoin",
+      "line_color": "003DA5",
+      "line_text_color": "FFFFFF",
+      "line_order_index": -1,
+      "total_stops_in_line": 0,
+      "orderIndex": 8,
+      "connections": [
+        "Suffolk Downs",
+        "Revere Beach"
+      ],
+      "transfer_stations": [],
+      "is_transfer_station": false,
+      "previous_stop": {
+        "id": "70053",
+        "name": "Suffolk Downs",
+        "description": "Suffolk Downs - Blue Line - Bowdoin",
+        "orderIndex": 7
+      },
+      "next_stop": {
+        "id": "70057",
+        "name": "Revere Beach",
+        "description": "Revere Beach - Blue Line - Bowdoin",
+        "orderIndex": 9
+      },
+      "description": "Beachmont - Blue Line - Bowdoin"
+    },
+    {
+      "id": "70042",
+      "name": "State",
+      "latitude": 42.358978,
+      "longitude": -71.057598,
+      "municipality": "Boston",
+      "wheelchair_boarding": 1,
+      "platform_name": "Wonderland",
+      "train_line": "Blue Line",
+      "direction": "Wonderland",
+      "line_color": "003DA5",
+      "line_text_color": "FFFFFF",
+      "line_order_index": -1,
+      "total_stops_in_line": 0,
+      "orderIndex": 8,
+      "connections": [
+        "Government Center",
+        "Aquarium"
+      ],
+      "transfer_stations": [],
+      "is_transfer_station": false,
+      "previous_stop": {
+        "id": "70044",
+        "name": "Aquarium",
+        "description": "Aquarium - Blue Line - Wonderland",
+        "orderIndex": 7
+      },
+      "next_stop": {
+        "id": "70040",
+        "name": "Government Center",
+        "description": "Government Center - Blue Line - Wonderland",
+        "orderIndex": 9
+      },
+      "description": "State - Blue Line - Wonderland"
+    },
+    {
+      "id": "70057",
+      "name": "Revere Beach",
+      "latitude": 42.40776,
+      "longitude": -70.992586,
+      "municipality": "Revere",
+      "wheelchair_boarding": 1,
+      "platform_name": "Bowdoin",
+      "train_line": "Blue Line",
+      "direction": "Bowdoin",
+      "line_color": "003DA5",
+      "line_text_color": "FFFFFF",
+      "line_order_index": -1,
+      "total_stops_in_line": 0,
+      "orderIndex": 9,
+      "connections": [
+        "Beachmont",
+        "Wonderland"
+      ],
+      "transfer_stations": [],
+      "is_transfer_station": false,
+      "previous_stop": {
+        "id": "70055",
+        "name": "Beachmont",
+        "description": "Beachmont - Blue Line - Bowdoin",
+        "orderIndex": 8
+      },
+      "next_stop": {
+        "id": "70059",
+        "name": "Wonderland",
+        "description": "Wonderland - Blue Line - Bowdoin",
+        "orderIndex": 10
+      },
+      "description": "Revere Beach - Blue Line - Bowdoin"
+    },
+    {
+      "id": "70040",
+      "name": "Government Center",
+      "latitude": 42.359705,
+      "longitude": -71.059215,
+      "municipality": "Boston",
+      "wheelchair_boarding": 1,
+      "platform_name": "Wonderland",
+      "train_line": "Blue Line",
+      "direction": "Wonderland",
+      "line_color": "003DA5",
+      "line_text_color": "FFFFFF",
+      "line_order_index": -1,
+      "total_stops_in_line": 0,
+      "orderIndex": 9,
+      "connections": [
+        "Haymarket",
+        "Park Street"
+      ],
+      "transfer_stations": [],
+      "is_transfer_station": false,
+      "previous_stop": {
+        "id": "70042",
+        "name": "State",
+        "description": "State - Blue Line - Wonderland",
+        "orderIndex": 8
+      },
+      "next_stop": {
+        "id": "70038",
+        "name": "Bowdoin",
+        "description": "Bowdoin - Blue Line - Wonderland",
+        "orderIndex": 10
+      },
+      "description": "Government Center - Blue Line - Wonderland"
+    },
+    {
+      "id": "70033",
+      "name": "Wellington",
+      "latitude": 42.401507,
+      "longitude": -71.07715,
+      "municipality": "Medford",
+      "wheelchair_boarding": 1,
+      "platform_name": "Oak Grove",
+      "train_line": "Orange Line",
+      "direction": "Oak Grove",
+      "line_color": "ED8B00",
+      "line_text_color": "FFFFFF",
+      "line_order_index": -1,
+      "total_stops_in_line": 0,
+      "orderIndex": 1,
+      "connections": [
+        "Malden Center",
+        "Assembly"
+      ],
+      "transfer_stations": [],
+      "is_transfer_station": false,
+      "previous_stop": {
+        "id": "70035",
+        "name": "Malden Center",
+        "description": "Malden Center - Orange Line - Oak Grove",
+        "orderIndex": 0
+      },
+      "next_stop": {
+        "id": "70279",
+        "name": "Assembly",
+        "description": "Assembly - Orange Line - Oak Grove",
+        "orderIndex": 2
+      },
+      "description": "Wellington - Orange Line - Oak Grove"
+    },
+    {
+      "id": "70004",
+      "name": "Stony Brook",
+      "latitude": 42.317062,
+      "longitude": -71.104248,
+      "municipality": "Boston",
+      "wheelchair_boarding": 1,
+      "platform_name": "Forest Hills",
+      "train_line": "Orange Line",
+      "direction": "Forest Hills",
+      "line_color": "ED8B00",
+      "line_text_color": "FFFFFF",
+      "line_order_index": -1,
+      "total_stops_in_line": 0,
+      "orderIndex": 1,
+      "connections": [
+        "Jackson Square",
+        "Green Street"
+      ],
+      "transfer_stations": [],
+      "is_transfer_station": false,
+      "previous_stop": {
+        "id": "70002",
+        "name": "Green Street",
+        "description": "Green Street - Orange Line - Forest Hills",
+        "orderIndex": 0
+      },
+      "next_stop": {
+        "id": "70006",
+        "name": "Jackson Square",
+        "description": "Jackson Square - Orange Line - Forest Hills",
+        "orderIndex": 2
+      },
+      "description": "Stony Brook - Orange Line - Forest Hills"
+    },
+    {
+      "id": "70279",
+      "name": "Assembly",
+      "latitude": 42.392336,
+      "longitude": -71.07718,
+      "municipality": "Somerville",
+      "wheelchair_boarding": 1,
+      "platform_name": "Oak Grove",
+      "train_line": "Orange Line",
+      "direction": "Oak Grove",
+      "line_color": "ED8B00",
+      "line_text_color": "FFFFFF",
+      "line_order_index": -1,
+      "total_stops_in_line": 0,
+      "orderIndex": 2,
+      "connections": [
+        "Wellington",
+        "Sullivan Square"
+      ],
+      "transfer_stations": [],
+      "is_transfer_station": false,
+      "previous_stop": {
+        "id": "70033",
+        "name": "Wellington",
+        "description": "Wellington - Orange Line - Oak Grove",
+        "orderIndex": 1
+      },
+      "next_stop": {
+        "id": "70031",
+        "name": "Sullivan Square",
+        "description": "Sullivan Square - Orange Line - Oak Grove",
+        "orderIndex": 3
+      },
+      "description": "Assembly - Orange Line - Oak Grove"
+    },
+    {
+      "id": "70006",
+      "name": "Jackson Square",
+      "latitude": 42.323132,
+      "longitude": -71.099592,
+      "municipality": "Boston",
+      "wheelchair_boarding": 1,
+      "platform_name": "Forest Hills",
+      "train_line": "Orange Line",
+      "direction": "Forest Hills",
+      "line_color": "ED8B00",
+      "line_text_color": "FFFFFF",
+      "line_order_index": -1,
+      "total_stops_in_line": 0,
+      "orderIndex": 2,
+      "connections": [
+        "Roxbury Crossing",
+        "Stony Brook"
+      ],
+      "transfer_stations": [],
+      "is_transfer_station": false,
+      "previous_stop": {
+        "id": "70004",
+        "name": "Stony Brook",
+        "description": "Stony Brook - Orange Line - Forest Hills",
+        "orderIndex": 1
+      },
+      "next_stop": {
+        "id": "70008",
+        "name": "Roxbury Crossing",
+        "description": "Roxbury Crossing - Orange Line - Forest Hills",
+        "orderIndex": 3
+      },
+      "description": "Jackson Square - Orange Line - Forest Hills"
+    },
+    {
+      "id": "70031",
+      "name": "Sullivan Square",
+      "latitude": 42.383975,
+      "longitude": -71.076994,
+      "municipality": "Boston",
+      "wheelchair_boarding": 1,
+      "platform_name": "Oak Grove",
+      "train_line": "Orange Line",
+      "direction": "Oak Grove",
+      "line_color": "ED8B00",
+      "line_text_color": "FFFFFF",
+      "line_order_index": -1,
+      "total_stops_in_line": 0,
+      "orderIndex": 3,
+      "connections": [
+        "Assembly",
+        "Community College"
+      ],
+      "transfer_stations": [],
+      "is_transfer_station": false,
+      "previous_stop": {
+        "id": "70279",
+        "name": "Assembly",
+        "description": "Assembly - Orange Line - Oak Grove",
+        "orderIndex": 2
+      },
+      "next_stop": {
+        "id": "70029",
+        "name": "Community College",
+        "description": "Community College - Orange Line - Oak Grove",
+        "orderIndex": 4
+      },
+      "description": "Sullivan Square - Orange Line - Oak Grove"
+    },
+    {
+      "id": "70008",
+      "name": "Roxbury Crossing",
+      "latitude": 42.330671,
+      "longitude": -71.096121,
+      "municipality": "Boston",
+      "wheelchair_boarding": 1,
+      "platform_name": "Forest Hills",
+      "train_line": "Orange Line",
+      "direction": "Forest Hills",
+      "line_color": "ED8B00",
+      "line_text_color": "FFFFFF",
+      "line_order_index": -1,
+      "total_stops_in_line": 0,
+      "orderIndex": 3,
+      "connections": [
+        "Ruggles",
+        "Jackson Square"
+      ],
+      "transfer_stations": [],
+      "is_transfer_station": false,
+      "previous_stop": {
+        "id": "70006",
+        "name": "Jackson Square",
+        "description": "Jackson Square - Orange Line - Forest Hills",
+        "orderIndex": 2
+      },
+      "next_stop": {
+        "id": "70010",
+        "name": "Ruggles",
+        "description": "Ruggles - Orange Line - Forest Hills",
+        "orderIndex": 4
+      },
+      "description": "Roxbury Crossing - Orange Line - Forest Hills"
+    },
+    {
+      "id": "70029",
+      "name": "Community College",
+      "latitude": 42.373622,
+      "longitude": -71.069533,
+      "municipality": "Boston",
+      "wheelchair_boarding": 1,
+      "platform_name": "Oak Grove",
+      "train_line": "Orange Line",
+      "direction": "Oak Grove",
+      "line_color": "ED8B00",
+      "line_text_color": "FFFFFF",
+      "line_order_index": -1,
+      "total_stops_in_line": 0,
+      "orderIndex": 4,
+      "connections": [
+        "Sullivan Square",
+        "North Station"
+      ],
+      "transfer_stations": [],
+      "is_transfer_station": false,
+      "previous_stop": {
+        "id": "70031",
+        "name": "Sullivan Square",
+        "description": "Sullivan Square - Orange Line - Oak Grove",
+        "orderIndex": 3
+      },
+      "next_stop": {
+        "id": "70027",
+        "name": "North Station",
+        "description": "North Station - Orange Line - Oak Grove",
+        "orderIndex": 5
+      },
+      "description": "Community College - Orange Line - Oak Grove"
+    },
+    {
+      "id": "70010",
+      "name": "Ruggles",
+      "latitude": 42.33649,
+      "longitude": -71.089684,
+      "municipality": "Boston",
+      "wheelchair_boarding": 1,
+      "platform_name": "Forest Hills",
+      "train_line": "Orange Line",
+      "direction": "Forest Hills",
+      "line_color": "ED8B00",
+      "line_text_color": "FFFFFF",
+      "line_order_index": -1,
+      "total_stops_in_line": 0,
+      "orderIndex": 4,
+      "connections": [
+        "Massachusetts Avenue",
+        "Roxbury Crossing"
+      ],
+      "transfer_stations": [],
+      "is_transfer_station": false,
+      "previous_stop": {
+        "id": "70008",
+        "name": "Roxbury Crossing",
+        "description": "Roxbury Crossing - Orange Line - Forest Hills",
+        "orderIndex": 3
+      },
+      "next_stop": {
+        "id": "70012",
+        "name": "Massachusetts Avenue",
+        "description": "Massachusetts Avenue - Orange Line - Forest Hills",
+        "orderIndex": 5
+      },
+      "description": "Ruggles - Orange Line - Forest Hills"
+    },
+    {
+      "id": "70012",
+      "name": "Massachusetts Avenue",
+      "latitude": 42.340927,
+      "longitude": -71.084188,
+      "municipality": "Boston",
+      "wheelchair_boarding": 1,
+      "platform_name": "Forest Hills",
+      "train_line": "Orange Line",
+      "direction": "Forest Hills",
+      "line_color": "ED8B00",
+      "line_text_color": "FFFFFF",
+      "line_order_index": -1,
+      "total_stops_in_line": 0,
+      "orderIndex": 5,
+      "connections": [
+        "Back Bay",
+        "Ruggles"
+      ],
+      "transfer_stations": [],
+      "is_transfer_station": false,
+      "previous_stop": {
+        "id": "70010",
+        "name": "Ruggles",
+        "description": "Ruggles - Orange Line - Forest Hills",
+        "orderIndex": 4
+      },
+      "next_stop": {
+        "id": "70014",
+        "name": "Back Bay",
+        "description": "Back Bay - Orange Line - Forest Hills",
+        "orderIndex": 6
+      },
+      "description": "Massachusetts Avenue - Orange Line - Forest Hills"
+    },
+    {
+      "id": "70027",
+      "name": "North Station",
+      "latitude": 42.36528,
+      "longitude": -71.060205,
+      "municipality": "Boston",
+      "wheelchair_boarding": 1,
+      "platform_name": "Oak Grove",
+      "train_line": "Orange Line",
+      "direction": "Oak Grove",
+      "line_color": "ED8B00",
+      "line_text_color": "FFFFFF",
+      "line_order_index": -1,
+      "total_stops_in_line": 0,
+      "orderIndex": 5,
+      "connections": [
+        "Haymarket"
+      ],
+      "transfer_stations": [],
+      "is_transfer_station": false,
+      "previous_stop": {
+        "id": "70029",
+        "name": "Community College",
+        "description": "Community College - Orange Line - Oak Grove",
+        "orderIndex": 4
+      },
+      "next_stop": {
+        "id": "70025",
+        "name": "Haymarket",
+        "description": "Haymarket - Orange Line - Oak Grove",
+        "orderIndex": 6
+      },
+      "description": "North Station - Orange Line - Oak Grove"
+    },
+    {
+      "id": "70025",
+      "name": "Haymarket",
+      "latitude": 42.363021,
+      "longitude": -71.05829,
+      "municipality": "Boston",
+      "wheelchair_boarding": 1,
+      "platform_name": "Oak Grove",
+      "train_line": "Orange Line",
+      "direction": "Oak Grove",
+      "line_color": "ED8B00",
+      "line_text_color": "FFFFFF",
+      "line_order_index": -1,
+      "total_stops_in_line": 0,
+      "orderIndex": 6,
+      "connections": [
+        "North Station",
+        "Government Center"
+      ],
+      "transfer_stations": [],
+      "is_transfer_station": false,
+      "previous_stop": {
+        "id": "70027",
+        "name": "North Station",
+        "description": "North Station - Orange Line - Oak Grove",
+        "orderIndex": 5
+      },
+      "next_stop": {
+        "id": "70023",
+        "name": "State",
+        "description": "State - Orange Line - Oak Grove",
+        "orderIndex": 7
+      },
+      "description": "Haymarket - Orange Line - Oak Grove"
+    },
+    {
+      "id": "70014",
+      "name": "Back Bay",
+      "latitude": 42.34735,
+      "longitude": -71.075727,
+      "municipality": "Boston",
+      "wheelchair_boarding": 1,
+      "platform_name": "Forest Hills",
+      "train_line": "Orange Line",
+      "direction": "Forest Hills",
+      "line_color": "ED8B00",
+      "line_text_color": "FFFFFF",
+      "line_order_index": -1,
+      "total_stops_in_line": 0,
+      "orderIndex": 6,
+      "connections": [
+        "Tufts Medical Center",
+        "Massachusetts Avenue"
+      ],
+      "transfer_stations": [],
+      "is_transfer_station": false,
+      "previous_stop": {
+        "id": "70012",
+        "name": "Massachusetts Avenue",
+        "description": "Massachusetts Avenue - Orange Line - Forest Hills",
+        "orderIndex": 5
+      },
+      "next_stop": {
+        "id": "70016",
+        "name": "Tufts Medical Center",
+        "description": "Tufts Medical Center - Orange Line - Forest Hills",
+        "orderIndex": 7
+      },
+      "description": "Back Bay - Orange Line - Forest Hills"
+    },
+    {
+      "id": "70016",
+      "name": "Tufts Medical Center",
+      "latitude": 42.349662,
+      "longitude": -71.063917,
+      "municipality": "Boston",
+      "wheelchair_boarding": 1,
+      "platform_name": "Forest Hills",
+      "train_line": "Orange Line",
+      "direction": "Forest Hills",
+      "line_color": "ED8B00",
+      "line_text_color": "FFFFFF",
+      "line_order_index": -1,
+      "total_stops_in_line": 0,
+      "orderIndex": 7,
+      "connections": [
+        "Chinatown",
+        "Back Bay"
+      ],
+      "transfer_stations": [],
+      "is_transfer_station": false,
+      "previous_stop": {
+        "id": "70014",
+        "name": "Back Bay",
+        "description": "Back Bay - Orange Line - Forest Hills",
+        "orderIndex": 6
+      },
+      "next_stop": {
+        "id": "70018",
+        "name": "Chinatown",
+        "description": "Chinatown - Orange Line - Forest Hills",
+        "orderIndex": 8
+      },
+      "description": "Tufts Medical Center - Orange Line - Forest Hills"
+    },
+    {
+      "id": "70023",
+      "name": "State",
+      "latitude": 42.358978,
+      "longitude": -71.057598,
+      "municipality": "Boston",
+      "wheelchair_boarding": 1,
+      "platform_name": "Oak Grove",
+      "train_line": "Orange Line",
+      "direction": "Oak Grove",
+      "line_color": "ED8B00",
+      "line_text_color": "FFFFFF",
+      "line_order_index": -1,
+      "total_stops_in_line": 0,
+      "orderIndex": 7,
+      "connections": [
+        "Government Center",
+        "Aquarium"
+      ],
+      "transfer_stations": [],
+      "is_transfer_station": false,
+      "previous_stop": {
+        "id": "70025",
+        "name": "Haymarket",
+        "description": "Haymarket - Orange Line - Oak Grove",
+        "orderIndex": 6
+      },
+      "next_stop": {
+        "id": "70021",
+        "name": "Downtown Crossing",
+        "description": "Downtown Crossing - Orange Line - Oak Grove",
+        "orderIndex": 8
+      },
+      "description": "State - Orange Line - Oak Grove"
+    },
+    {
+      "id": "70021",
+      "name": "Downtown Crossing",
+      "latitude": 42.355518,
+      "longitude": -71.060225,
+      "municipality": "Boston",
+      "wheelchair_boarding": 1,
+      "platform_name": "Oak Grove",
+      "train_line": "Orange Line",
+      "direction": "Oak Grove",
+      "line_color": "ED8B00",
+      "line_text_color": "FFFFFF",
+      "line_order_index": -1,
+      "total_stops_in_line": 0,
+      "orderIndex": 8,
+      "connections": [
+        "Park Street",
+        "South Station"
+      ],
+      "transfer_stations": [
+        "Downtown Crossing"
+      ],
+      "is_transfer_station": true,
+      "previous_stop": {
+        "id": "70023",
+        "name": "State",
+        "description": "State - Orange Line - Oak Grove",
+        "orderIndex": 7
+      },
+      "next_stop": {
+        "id": "70019",
+        "name": "Chinatown",
+        "description": "Chinatown - Orange Line - Oak Grove",
+        "orderIndex": 9
+      },
+      "description": "Downtown Crossing - Orange Line - Oak Grove"
+    },
+    {
+      "id": "70018",
+      "name": "Chinatown",
+      "latitude": 42.352547,
+      "longitude": -71.062752,
+      "municipality": "Boston",
+      "wheelchair_boarding": 1,
+      "platform_name": "Forest Hills",
+      "train_line": "Orange Line",
+      "direction": "Forest Hills",
+      "line_color": "ED8B00",
+      "line_text_color": "FFFFFF",
+      "line_order_index": -1,
+      "total_stops_in_line": 0,
+      "orderIndex": 8,
+      "connections": [
+        "Downtown Crossing",
+        "Tufts Medical Center"
+      ],
+      "transfer_stations": [],
+      "is_transfer_station": false,
+      "previous_stop": {
+        "id": "70016",
+        "name": "Tufts Medical Center",
+        "description": "Tufts Medical Center - Orange Line - Forest Hills",
+        "orderIndex": 7
+      },
+      "next_stop": {
+        "id": "70020",
+        "name": "Downtown Crossing",
+        "description": "Downtown Crossing - Orange Line - Forest Hills",
+        "orderIndex": 9
+      },
+      "description": "Chinatown - Orange Line - Forest Hills"
+    },
+    {
+      "id": "70019",
+      "name": "Chinatown",
+      "latitude": 42.352547,
+      "longitude": -71.062752,
+      "municipality": "Boston",
+      "wheelchair_boarding": 1,
+      "platform_name": "Oak Grove",
+      "train_line": "Orange Line",
+      "direction": "Oak Grove",
+      "line_color": "ED8B00",
+      "line_text_color": "FFFFFF",
+      "line_order_index": -1,
+      "total_stops_in_line": 0,
+      "orderIndex": 9,
+      "connections": [
+        "Downtown Crossing",
+        "Tufts Medical Center"
+      ],
+      "transfer_stations": [],
+      "is_transfer_station": false,
+      "previous_stop": {
+        "id": "70021",
+        "name": "Downtown Crossing",
+        "description": "Downtown Crossing - Orange Line - Oak Grove",
+        "orderIndex": 8
+      },
+      "next_stop": {
+        "id": "70017",
+        "name": "Tufts Medical Center",
+        "description": "Tufts Medical Center - Orange Line - Oak Grove",
+        "orderIndex": 10
+      },
+      "description": "Chinatown - Orange Line - Oak Grove"
+    },
+    {
+      "id": "70020",
+      "name": "Downtown Crossing",
+      "latitude": 42.355518,
+      "longitude": -71.060225,
+      "municipality": "Boston",
+      "wheelchair_boarding": 1,
+      "platform_name": "Forest Hills",
+      "train_line": "Orange Line",
+      "direction": "Forest Hills",
+      "line_color": "ED8B00",
+      "line_text_color": "FFFFFF",
+      "line_order_index": -1,
+      "total_stops_in_line": 0,
+      "orderIndex": 9,
+      "connections": [
+        "Park Street",
+        "South Station"
+      ],
+      "transfer_stations": [
+        "Downtown Crossing"
+      ],
+      "is_transfer_station": true,
+      "previous_stop": {
+        "id": "70018",
+        "name": "Chinatown",
+        "description": "Chinatown - Orange Line - Forest Hills",
+        "orderIndex": 8
+      },
+      "next_stop": {
+        "id": "70022",
+        "name": "State",
+        "description": "State - Orange Line - Forest Hills",
+        "orderIndex": 10
+      },
+      "description": "Downtown Crossing - Orange Line - Forest Hills"
+    },
+    {
+      "id": "70022",
+      "name": "State",
+      "latitude": 42.358978,
+      "longitude": -71.057598,
+      "municipality": "Boston",
+      "wheelchair_boarding": 1,
+      "platform_name": "Forest Hills",
+      "train_line": "Orange Line",
+      "direction": "Forest Hills",
+      "line_color": "ED8B00",
+      "line_text_color": "FFFFFF",
+      "line_order_index": -1,
+      "total_stops_in_line": 0,
+      "orderIndex": 10,
+      "connections": [
+        "Government Center",
+        "Aquarium"
+      ],
+      "transfer_stations": [],
+      "is_transfer_station": false,
+      "previous_stop": {
+        "id": "70020",
+        "name": "Downtown Crossing",
+        "description": "Downtown Crossing - Orange Line - Forest Hills",
+        "orderIndex": 9
+      },
+      "next_stop": {
+        "id": "70024",
+        "name": "Haymarket",
+        "description": "Haymarket - Orange Line - Forest Hills",
+        "orderIndex": 11
+      },
+      "description": "State - Orange Line - Forest Hills"
+    },
+    {
+      "id": "70017",
+      "name": "Tufts Medical Center",
+      "latitude": 42.349662,
+      "longitude": -71.063917,
+      "municipality": "Boston",
+      "wheelchair_boarding": 1,
+      "platform_name": "Oak Grove",
+      "train_line": "Orange Line",
+      "direction": "Oak Grove",
+      "line_color": "ED8B00",
+      "line_text_color": "FFFFFF",
+      "line_order_index": -1,
+      "total_stops_in_line": 0,
+      "orderIndex": 10,
+      "connections": [
+        "Chinatown",
+        "Back Bay"
+      ],
+      "transfer_stations": [],
+      "is_transfer_station": false,
+      "previous_stop": {
+        "id": "70019",
+        "name": "Chinatown",
+        "description": "Chinatown - Orange Line - Oak Grove",
+        "orderIndex": 9
+      },
+      "next_stop": {
+        "id": "70015",
+        "name": "Back Bay",
+        "description": "Back Bay - Orange Line - Oak Grove",
+        "orderIndex": 11
+      },
+      "description": "Tufts Medical Center - Orange Line - Oak Grove"
+    },
+    {
+      "id": "70015",
+      "name": "Back Bay",
+      "latitude": 42.34735,
+      "longitude": -71.075727,
+      "municipality": "Boston",
+      "wheelchair_boarding": 1,
+      "platform_name": "Oak Grove",
+      "train_line": "Orange Line",
+      "direction": "Oak Grove",
+      "line_color": "ED8B00",
+      "line_text_color": "FFFFFF",
+      "line_order_index": -1,
+      "total_stops_in_line": 0,
+      "orderIndex": 11,
+      "connections": [
+        "Tufts Medical Center",
+        "Massachusetts Avenue"
+      ],
+      "transfer_stations": [],
+      "is_transfer_station": false,
+      "previous_stop": {
+        "id": "70017",
+        "name": "Tufts Medical Center",
+        "description": "Tufts Medical Center - Orange Line - Oak Grove",
+        "orderIndex": 10
+      },
+      "next_stop": {
+        "id": "70013",
+        "name": "Massachusetts Avenue",
+        "description": "Massachusetts Avenue - Orange Line - Oak Grove",
+        "orderIndex": 12
+      },
+      "description": "Back Bay - Orange Line - Oak Grove"
+    },
+    {
+      "id": "70024",
+      "name": "Haymarket",
+      "latitude": 42.363021,
+      "longitude": -71.05829,
+      "municipality": "Boston",
+      "wheelchair_boarding": 1,
+      "platform_name": "Forest Hills",
+      "train_line": "Orange Line",
+      "direction": "Forest Hills",
+      "line_color": "ED8B00",
+      "line_text_color": "FFFFFF",
+      "line_order_index": -1,
+      "total_stops_in_line": 0,
+      "orderIndex": 11,
+      "connections": [
+        "North Station",
+        "Government Center"
+      ],
+      "transfer_stations": [],
+      "is_transfer_station": false,
+      "previous_stop": {
+        "id": "70022",
+        "name": "State",
+        "description": "State - Orange Line - Forest Hills",
+        "orderIndex": 10
+      },
+      "next_stop": {
+        "id": "70026",
+        "name": "North Station",
+        "description": "North Station - Orange Line - Forest Hills",
+        "orderIndex": 12
+      },
+      "description": "Haymarket - Orange Line - Forest Hills"
+    },
+    {
+      "id": "70013",
+      "name": "Massachusetts Avenue",
+      "latitude": 42.340892,
+      "longitude": -71.084124,
+      "municipality": "Boston",
+      "wheelchair_boarding": 1,
+      "platform_name": "Oak Grove",
+      "train_line": "Orange Line",
+      "direction": "Oak Grove",
+      "line_color": "ED8B00",
+      "line_text_color": "FFFFFF",
+      "line_order_index": -1,
+      "total_stops_in_line": 0,
+      "orderIndex": 12,
+      "connections": [
+        "Back Bay",
+        "Ruggles"
+      ],
+      "transfer_stations": [],
+      "is_transfer_station": false,
+      "previous_stop": {
+        "id": "70015",
+        "name": "Back Bay",
+        "description": "Back Bay - Orange Line - Oak Grove",
+        "orderIndex": 11
+      },
+      "next_stop": {
+        "id": "70011",
+        "name": "Ruggles",
+        "description": "Ruggles - Orange Line - Oak Grove",
+        "orderIndex": 13
+      },
+      "description": "Massachusetts Avenue - Orange Line - Oak Grove"
+    },
+    {
+      "id": "70026",
+      "name": "North Station",
+      "latitude": 42.36528,
+      "longitude": -71.060205,
+      "municipality": "Boston",
+      "wheelchair_boarding": 1,
+      "platform_name": "Forest Hills",
+      "train_line": "Orange Line",
+      "direction": "Forest Hills",
+      "line_color": "ED8B00",
+      "line_text_color": "FFFFFF",
+      "line_order_index": -1,
+      "total_stops_in_line": 0,
+      "orderIndex": 12,
+      "connections": [
+        "Haymarket"
+      ],
+      "transfer_stations": [],
+      "is_transfer_station": false,
+      "previous_stop": {
+        "id": "70024",
+        "name": "Haymarket",
+        "description": "Haymarket - Orange Line - Forest Hills",
+        "orderIndex": 11
+      },
+      "next_stop": {
+        "id": "70028",
+        "name": "Community College",
+        "description": "Community College - Orange Line - Forest Hills",
+        "orderIndex": 13
+      },
+      "description": "North Station - Orange Line - Forest Hills"
+    },
+    {
+      "id": "70028",
+      "name": "Community College",
+      "latitude": 42.373622,
+      "longitude": -71.069533,
+      "municipality": "Boston",
+      "wheelchair_boarding": 1,
+      "platform_name": "Forest Hills",
+      "train_line": "Orange Line",
+      "direction": "Forest Hills",
+      "line_color": "ED8B00",
+      "line_text_color": "FFFFFF",
+      "line_order_index": -1,
+      "total_stops_in_line": 0,
+      "orderIndex": 13,
+      "connections": [
+        "Sullivan Square",
+        "North Station"
+      ],
+      "transfer_stations": [],
+      "is_transfer_station": false,
+      "previous_stop": {
+        "id": "70026",
+        "name": "North Station",
+        "description": "North Station - Orange Line - Forest Hills",
+        "orderIndex": 12
+      },
+      "next_stop": {
+        "id": "70030",
+        "name": "Sullivan Square",
+        "description": "Sullivan Square - Orange Line - Forest Hills",
+        "orderIndex": 14
+      },
+      "description": "Community College - Orange Line - Forest Hills"
+    },
+    {
+      "id": "70011",
+      "name": "Ruggles",
+      "latitude": 42.336451,
+      "longitude": -71.089635,
+      "municipality": "Boston",
+      "wheelchair_boarding": 1,
+      "platform_name": "Oak Grove",
+      "train_line": "Orange Line",
+      "direction": "Oak Grove",
+      "line_color": "ED8B00",
+      "line_text_color": "FFFFFF",
+      "line_order_index": -1,
+      "total_stops_in_line": 0,
+      "orderIndex": 13,
+      "connections": [
+        "Massachusetts Avenue",
+        "Roxbury Crossing"
+      ],
+      "transfer_stations": [],
+      "is_transfer_station": false,
+      "previous_stop": {
+        "id": "70013",
+        "name": "Massachusetts Avenue",
+        "description": "Massachusetts Avenue - Orange Line - Oak Grove",
+        "orderIndex": 12
+      },
+      "next_stop": {
+        "id": "70009",
+        "name": "Roxbury Crossing",
+        "description": "Roxbury Crossing - Orange Line - Oak Grove",
+        "orderIndex": 14
+      },
+      "description": "Ruggles - Orange Line - Oak Grove"
+    },
+    {
+      "id": "70030",
+      "name": "Sullivan Square",
+      "latitude": 42.383975,
+      "longitude": -71.076994,
+      "municipality": "Boston",
+      "wheelchair_boarding": 1,
+      "platform_name": "Forest Hills",
+      "train_line": "Orange Line",
+      "direction": "Forest Hills",
+      "line_color": "ED8B00",
+      "line_text_color": "FFFFFF",
+      "line_order_index": -1,
+      "total_stops_in_line": 0,
+      "orderIndex": 14,
+      "connections": [
+        "Assembly",
+        "Community College"
+      ],
+      "transfer_stations": [],
+      "is_transfer_station": false,
+      "previous_stop": {
+        "id": "70028",
+        "name": "Community College",
+        "description": "Community College - Orange Line - Forest Hills",
+        "orderIndex": 13
+      },
+      "next_stop": {
+        "id": "70278",
+        "name": "Assembly",
+        "description": "Assembly - Orange Line - Forest Hills",
+        "orderIndex": 15
+      },
+      "description": "Sullivan Square - Orange Line - Forest Hills"
+    },
+    {
+      "id": "70009",
+      "name": "Roxbury Crossing",
+      "latitude": 42.33064,
+      "longitude": -71.09604,
+      "municipality": "Boston",
+      "wheelchair_boarding": 1,
+      "platform_name": "Oak Grove",
+      "train_line": "Orange Line",
+      "direction": "Oak Grove",
+      "line_color": "ED8B00",
+      "line_text_color": "FFFFFF",
+      "line_order_index": -1,
+      "total_stops_in_line": 0,
+      "orderIndex": 14,
+      "connections": [
+        "Ruggles",
+        "Jackson Square"
+      ],
+      "transfer_stations": [],
+      "is_transfer_station": false,
+      "previous_stop": {
+        "id": "70011",
+        "name": "Ruggles",
+        "description": "Ruggles - Orange Line - Oak Grove",
+        "orderIndex": 13
+      },
+      "next_stop": {
+        "id": "70007",
+        "name": "Jackson Square",
+        "description": "Jackson Square - Orange Line - Oak Grove",
+        "orderIndex": 15
+      },
+      "description": "Roxbury Crossing - Orange Line - Oak Grove"
+    },
+    {
+      "id": "70007",
+      "name": "Jackson Square",
+      "latitude": 42.323132,
+      "longitude": -71.099592,
+      "municipality": "Boston",
+      "wheelchair_boarding": 1,
+      "platform_name": "Oak Grove",
+      "train_line": "Orange Line",
+      "direction": "Oak Grove",
+      "line_color": "ED8B00",
+      "line_text_color": "FFFFFF",
+      "line_order_index": -1,
+      "total_stops_in_line": 0,
+      "orderIndex": 15,
+      "connections": [
+        "Roxbury Crossing",
+        "Stony Brook"
+      ],
+      "transfer_stations": [],
+      "is_transfer_station": false,
+      "previous_stop": {
+        "id": "70009",
+        "name": "Roxbury Crossing",
+        "description": "Roxbury Crossing - Orange Line - Oak Grove",
+        "orderIndex": 14
+      },
+      "next_stop": {
+        "id": "70005",
+        "name": "Stony Brook",
+        "description": "Stony Brook - Orange Line - Oak Grove",
+        "orderIndex": 16
+      },
+      "description": "Jackson Square - Orange Line - Oak Grove"
+    },
+    {
+      "id": "70278",
+      "name": "Assembly",
+      "latitude": 42.392331,
+      "longitude": -71.077262,
+      "municipality": "Somerville",
+      "wheelchair_boarding": 1,
+      "platform_name": "Forest Hills",
+      "train_line": "Orange Line",
+      "direction": "Forest Hills",
+      "line_color": "ED8B00",
+      "line_text_color": "FFFFFF",
+      "line_order_index": -1,
+      "total_stops_in_line": 0,
+      "orderIndex": 15,
+      "connections": [
+        "Wellington",
+        "Sullivan Square"
+      ],
+      "transfer_stations": [],
+      "is_transfer_station": false,
+      "previous_stop": {
+        "id": "70030",
+        "name": "Sullivan Square",
+        "description": "Sullivan Square - Orange Line - Forest Hills",
+        "orderIndex": 14
+      },
+      "next_stop": {
+        "id": "70032",
+        "name": "Wellington",
+        "description": "Wellington - Orange Line - Forest Hills",
+        "orderIndex": 16
+      },
+      "description": "Assembly - Orange Line - Forest Hills"
+    },
+    {
+      "id": "70005",
+      "name": "Stony Brook",
+      "latitude": 42.317062,
+      "longitude": -71.104248,
+      "municipality": "Boston",
+      "wheelchair_boarding": 1,
+      "platform_name": "Oak Grove",
+      "train_line": "Orange Line",
+      "direction": "Oak Grove",
+      "line_color": "ED8B00",
+      "line_text_color": "FFFFFF",
+      "line_order_index": -1,
+      "total_stops_in_line": 0,
+      "orderIndex": 16,
+      "connections": [
+        "Jackson Square",
+        "Green Street"
+      ],
+      "transfer_stations": [],
+      "is_transfer_station": false,
+      "previous_stop": {
+        "id": "70007",
+        "name": "Jackson Square",
+        "description": "Jackson Square - Orange Line - Oak Grove",
+        "orderIndex": 15
+      },
+      "next_stop": {
+        "id": "70003",
+        "name": "Green Street",
+        "description": "Green Street - Orange Line - Oak Grove",
+        "orderIndex": 17
+      },
+      "description": "Stony Brook - Orange Line - Oak Grove"
+    },
+    {
+      "id": "70032",
+      "name": "Wellington",
+      "latitude": 42.401505,
+      "longitude": -71.077252,
+      "municipality": "Medford",
+      "wheelchair_boarding": 1,
+      "platform_name": "Forest Hills",
+      "train_line": "Orange Line",
+      "direction": "Forest Hills",
+      "line_color": "ED8B00",
+      "line_text_color": "FFFFFF",
+      "line_order_index": -1,
+      "total_stops_in_line": 0,
+      "orderIndex": 16,
+      "connections": [
+        "Malden Center",
+        "Assembly"
+      ],
+      "transfer_stations": [],
+      "is_transfer_station": false,
+      "previous_stop": {
+        "id": "70278",
+        "name": "Assembly",
+        "description": "Assembly - Orange Line - Forest Hills",
+        "orderIndex": 15
+      },
+      "next_stop": {
+        "id": "70034",
+        "name": "Malden Center",
+        "description": "Malden Center - Orange Line - Forest Hills",
+        "orderIndex": 17
+      },
+      "description": "Wellington - Orange Line - Forest Hills"
+    },
+    {
+      "id": "70066",
+      "name": "Porter",
+      "latitude": 42.3884,
+      "longitude": -71.119149,
+      "municipality": "Cambridge",
+      "wheelchair_boarding": 1,
+      "platform_name": "Alewife",
+      "train_line": "Red Line",
+      "direction": "Alewife",
+      "line_color": "DA291C",
+      "line_text_color": "FFFFFF",
+      "line_order_index": -1,
+      "total_stops_in_line": 0,
+      "orderIndex": 1,
+      "connections": [
+        "Davis",
+        "Harvard"
+      ],
+      "transfer_stations": [],
+      "is_transfer_station": false,
+      "previous_stop": {
+        "id": "70064",
+        "name": "Davis",
+        "description": "Davis - Red Line - Alewife",
+        "orderIndex": 0
+      },
+      "next_stop": {
+        "id": "70068",
+        "name": "Harvard",
+        "description": "Harvard - Red Line - Alewife",
+        "orderIndex": 2
+      },
+      "description": "Porter - Red Line - Alewife"
+    },
+    {
+      "id": "70083",
+      "name": "Andrew",
+      "latitude": 42.330154,
+      "longitude": -71.057655,
+      "municipality": "Boston",
+      "wheelchair_boarding": 1,
+      "platform_name": "Ashmont/Braintree",
+      "train_line": "Red Line",
+      "direction": "Ashmont/Braintree",
+      "line_color": "DA291C",
+      "line_text_color": "FFFFFF",
+      "line_order_index": -1,
+      "total_stops_in_line": 0,
+      "orderIndex": 1,
+      "connections": [
+        "Broadway",
+        "JFK/UMass"
+      ],
+      "transfer_stations": [],
+      "is_transfer_station": false,
+      "previous_stop": {
+        "id": "70065",
+        "name": "Porter",
+        "description": "Porter - Red Line - Ashmont/Braintree",
+        "orderIndex": 0
+      },
+      "next_stop": {
+        "id": "70081",
+        "name": "Broadway",
+        "description": "Broadway - Red Line - Ashmont/Braintree",
+        "orderIndex": 2
+      },
+      "description": "Andrew - Red Line - Ashmont/Braintree"
+    },
+    {
+      "id": "70081",
+      "name": "Broadway",
+      "latitude": 42.342622,
+      "longitude": -71.056967,
+      "municipality": "Boston",
+      "wheelchair_boarding": 1,
+      "platform_name": "Ashmont/Braintree",
+      "train_line": "Red Line",
+      "direction": "Ashmont/Braintree",
+      "line_color": "DA291C",
+      "line_text_color": "FFFFFF",
+      "line_order_index": -1,
+      "total_stops_in_line": 0,
+      "orderIndex": 2,
+      "connections": [
+        "South Station",
+        "Andrew"
+      ],
+      "transfer_stations": [],
+      "is_transfer_station": false,
+      "previous_stop": {
+        "id": "70083",
+        "name": "Andrew",
+        "description": "Andrew - Red Line - Ashmont/Braintree",
+        "orderIndex": 1
+      },
+      "next_stop": {
+        "id": "70079",
+        "name": "South Station",
+        "description": "South Station - Red Line - Ashmont/Braintree",
+        "orderIndex": 3
+      },
+      "description": "Broadway - Red Line - Ashmont/Braintree"
+    },
+    {
+      "id": "70068",
+      "name": "Harvard",
+      "latitude": 42.374663,
+      "longitude": -71.118814,
+      "municipality": "Cambridge",
+      "wheelchair_boarding": 1,
+      "platform_name": "Alewife",
+      "train_line": "Red Line",
+      "direction": "Alewife",
+      "line_color": "DA291C",
+      "line_text_color": "FFFFFF",
+      "line_order_index": -1,
+      "total_stops_in_line": 0,
+      "orderIndex": 2,
+      "connections": [
+        "Porter",
+        "Central"
+      ],
+      "transfer_stations": [],
+      "is_transfer_station": false,
+      "previous_stop": {
+        "id": "70066",
+        "name": "Porter",
+        "description": "Porter - Red Line - Alewife",
+        "orderIndex": 1
+      },
+      "next_stop": {
+        "id": "70070",
+        "name": "Central",
+        "description": "Central - Red Line - Alewife",
+        "orderIndex": 3
+      },
+      "description": "Harvard - Red Line - Alewife"
+    },
+    {
+      "id": "70070",
+      "name": "Central",
+      "latitude": 42.365379,
+      "longitude": -71.103554,
+      "municipality": "Cambridge",
+      "wheelchair_boarding": 1,
+      "platform_name": "Alewife",
+      "train_line": "Red Line",
+      "direction": "Alewife",
+      "line_color": "DA291C",
+      "line_text_color": "FFFFFF",
+      "line_order_index": -1,
+      "total_stops_in_line": 0,
+      "orderIndex": 3,
+      "connections": [
+        "Harvard",
+        "Kendall/MIT"
+      ],
+      "transfer_stations": [],
+      "is_transfer_station": false,
+      "previous_stop": {
+        "id": "70068",
+        "name": "Harvard",
+        "description": "Harvard - Red Line - Alewife",
+        "orderIndex": 2
+      },
+      "next_stop": {
+        "id": "70072",
+        "name": "Kendall/MIT",
+        "description": "Kendall/MIT - Red Line - Alewife",
+        "orderIndex": 4
+      },
+      "description": "Central - Red Line - Alewife"
+    },
+    {
+      "id": "70079",
+      "name": "South Station",
+      "latitude": 42.352271,
+      "longitude": -71.055242,
+      "municipality": "Boston",
+      "wheelchair_boarding": 1,
+      "platform_name": "Ashmont/Braintree",
+      "train_line": "Red Line",
+      "direction": "Ashmont/Braintree",
+      "line_color": "DA291C",
+      "line_text_color": "FFFFFF",
+      "line_order_index": -1,
+      "total_stops_in_line": 0,
+      "orderIndex": 3,
+      "connections": [
+        "Downtown Crossing",
+        "Broadway"
+      ],
+      "transfer_stations": [
+        "South Station"
+      ],
+      "is_transfer_station": true,
+      "previous_stop": {
+        "id": "70081",
+        "name": "Broadway",
+        "description": "Broadway - Red Line - Ashmont/Braintree",
+        "orderIndex": 2
+      },
+      "next_stop": {
+        "id": "70077",
+        "name": "Downtown Crossing",
+        "description": "Downtown Crossing - Red Line - Ashmont/Braintree",
+        "orderIndex": 4
+      },
+      "description": "South Station - Red Line - Ashmont/Braintree"
+    },
+    {
+      "id": "70077",
+      "name": "Downtown Crossing",
+      "latitude": 42.355518,
+      "longitude": -71.060225,
+      "municipality": "Boston",
+      "wheelchair_boarding": 1,
+      "platform_name": "Ashmont/Braintree",
+      "train_line": "Red Line",
+      "direction": "Ashmont/Braintree",
+      "line_color": "DA291C",
+      "line_text_color": "FFFFFF",
+      "line_order_index": -1,
+      "total_stops_in_line": 0,
+      "orderIndex": 4,
+      "connections": [
+        "Park Street",
+        "South Station"
+      ],
+      "transfer_stations": [
+        "Downtown Crossing"
+      ],
+      "is_transfer_station": true,
+      "previous_stop": {
+        "id": "70079",
+        "name": "South Station",
+        "description": "South Station - Red Line - Ashmont/Braintree",
+        "orderIndex": 3
+      },
+      "next_stop": {
+        "id": "70075",
+        "name": "Park Street",
+        "description": "Park Street - Red Line - Ashmont/Braintree",
+        "orderIndex": 5
+      },
+      "description": "Downtown Crossing - Red Line - Ashmont/Braintree"
+    },
+    {
+      "id": "70072",
+      "name": "Kendall/MIT",
+      "latitude": 42.362434,
+      "longitude": -71.085591,
+      "municipality": "Cambridge",
+      "wheelchair_boarding": 1,
+      "platform_name": "Alewife",
+      "train_line": "Red Line",
+      "direction": "Alewife",
+      "line_color": "DA291C",
+      "line_text_color": "FFFFFF",
+      "line_order_index": -1,
+      "total_stops_in_line": 0,
+      "orderIndex": 4,
+      "connections": [
+        "Central",
+        "Charles/MGH"
+      ],
+      "transfer_stations": [],
+      "is_transfer_station": false,
+      "previous_stop": {
+        "id": "70070",
+        "name": "Central",
+        "description": "Central - Red Line - Alewife",
+        "orderIndex": 3
+      },
+      "next_stop": {
+        "id": "70074",
+        "name": "Charles/MGH",
+        "description": "Charles/MGH - Red Line - Alewife",
+        "orderIndex": 5
+      },
+      "description": "Kendall/MIT - Red Line - Alewife"
+    },
+    {
+      "id": "70078",
+      "name": "Downtown Crossing",
+      "latitude": 42.355518,
+      "longitude": -71.060225,
+      "municipality": "Boston",
+      "wheelchair_boarding": 1,
+      "platform_name": "Alewife",
+      "train_line": "Red Line",
+      "direction": "Alewife",
+      "line_color": "DA291C",
+      "line_text_color": "FFFFFF",
+      "line_order_index": -1,
+      "total_stops_in_line": 0,
+      "orderIndex": 5,
+      "connections": [
+        "Park Street",
+        "South Station"
+      ],
+      "transfer_stations": [
+        "Downtown Crossing"
+      ],
+      "is_transfer_station": true,
+      "previous_stop": {
+        "id": "70076",
+        "name": "Park Street",
+        "description": "Park Street - Red Line - Alewife",
+        "orderIndex": 6
+      },
+      "next_stop": {
+        "id": "70080",
+        "name": "South Station",
+        "description": "South Station - Red Line - Alewife",
+        "orderIndex": 8
+      },
+      "description": "Downtown Crossing - Red Line - Alewife"
+    },
+    {
+      "id": "70075",
+      "name": "Park Street",
+      "latitude": 42.356395,
+      "longitude": -71.062424,
+      "municipality": "Boston",
+      "wheelchair_boarding": 1,
+      "platform_name": "Ashmont/Braintree",
+      "train_line": "Red Line",
+      "direction": "Ashmont/Braintree",
+      "line_color": "DA291C",
+      "line_text_color": "FFFFFF",
+      "line_order_index": -1,
+      "total_stops_in_line": 0,
+      "orderIndex": 5,
+      "connections": [
+        "Government Center",
+        "Boylston"
+      ],
+      "transfer_stations": [],
+      "is_transfer_station": false,
+      "previous_stop": {
+        "id": "70077",
+        "name": "Downtown Crossing",
+        "description": "Downtown Crossing - Red Line - Ashmont/Braintree",
+        "orderIndex": 4
+      },
+      "next_stop": {
+        "id": "70073",
+        "name": "Charles/MGH",
+        "description": "Charles/MGH - Red Line - Ashmont/Braintree",
+        "orderIndex": 6
+      },
+      "description": "Park Street - Red Line - Ashmont/Braintree"
+    },
+    {
+      "id": "70074",
+      "name": "Charles/MGH",
+      "latitude": 42.361263,
+      "longitude": -71.071602,
+      "municipality": "Boston",
+      "wheelchair_boarding": 1,
+      "platform_name": "Alewife",
+      "train_line": "Red Line",
+      "direction": "Alewife",
+      "line_color": "DA291C",
+      "line_text_color": "FFFFFF",
+      "line_order_index": -1,
+      "total_stops_in_line": 0,
+      "orderIndex": 5,
+      "connections": [
+        "Kendall/MIT",
+        "Park Street"
+      ],
+      "transfer_stations": [],
+      "is_transfer_station": false,
+      "previous_stop": {
+        "id": "70072",
+        "name": "Kendall/MIT",
+        "description": "Kendall/MIT - Red Line - Alewife",
+        "orderIndex": 4
+      },
+      "next_stop": {
+        "id": "70076",
+        "name": "Park Street",
+        "description": "Park Street - Red Line - Alewife",
+        "orderIndex": 6
+      },
+      "description": "Charles/MGH - Red Line - Alewife"
+    },
+    {
+      "id": "70073",
+      "name": "Charles/MGH",
+      "latitude": 42.361187,
+      "longitude": -71.071505,
+      "municipality": "Boston",
+      "wheelchair_boarding": 1,
+      "platform_name": "Ashmont/Braintree",
+      "train_line": "Red Line",
+      "direction": "Ashmont/Braintree",
+      "line_color": "DA291C",
+      "line_text_color": "FFFFFF",
+      "line_order_index": -1,
+      "total_stops_in_line": 0,
+      "orderIndex": 6,
+      "connections": [
+        "Kendall/MIT",
+        "Park Street"
+      ],
+      "transfer_stations": [],
+      "is_transfer_station": false,
+      "previous_stop": {
+        "id": "70075",
+        "name": "Park Street",
+        "description": "Park Street - Red Line - Ashmont/Braintree",
+        "orderIndex": 5
+      },
+      "next_stop": {
+        "id": "70071",
+        "name": "Kendall/MIT",
+        "description": "Kendall/MIT - Red Line - Ashmont/Braintree",
+        "orderIndex": 7
+      },
+      "description": "Charles/MGH - Red Line - Ashmont/Braintree"
+    },
+    {
+      "id": "70076",
+      "name": "Park Street",
+      "latitude": 42.356395,
+      "longitude": -71.062424,
+      "municipality": "Boston",
+      "wheelchair_boarding": 1,
+      "platform_name": "Alewife",
+      "train_line": "Red Line",
+      "direction": "Alewife",
+      "line_color": "DA291C",
+      "line_text_color": "FFFFFF",
+      "line_order_index": -1,
+      "total_stops_in_line": 0,
+      "orderIndex": 6,
+      "connections": [
+        "Government Center",
+        "Boylston"
+      ],
+      "transfer_stations": [],
+      "is_transfer_station": false,
+      "previous_stop": {
+        "id": "70074",
+        "name": "Charles/MGH",
+        "description": "Charles/MGH - Red Line - Alewife",
+        "orderIndex": 5
+      },
+      "next_stop": {
+        "id": "70078",
+        "name": "Downtown Crossing",
+        "description": "Downtown Crossing - Red Line - Alewife",
+        "orderIndex": 7
+      },
+      "description": "Park Street - Red Line - Alewife"
+    },
+    {
+      "id": "70071",
+      "name": "Kendall/MIT",
+      "latitude": 42.362355,
+      "longitude": -71.085605,
+      "municipality": "Cambridge",
+      "wheelchair_boarding": 1,
+      "platform_name": "Ashmont/Braintree",
+      "train_line": "Red Line",
+      "direction": "Ashmont/Braintree",
+      "line_color": "DA291C",
+      "line_text_color": "FFFFFF",
+      "line_order_index": -1,
+      "total_stops_in_line": 0,
+      "orderIndex": 7,
+      "connections": [
+        "Central",
+        "Charles/MGH"
+      ],
+      "transfer_stations": [],
+      "is_transfer_station": false,
+      "previous_stop": {
+        "id": "70073",
+        "name": "Charles/MGH",
+        "description": "Charles/MGH - Red Line - Ashmont/Braintree",
+        "orderIndex": 6
+      },
+      "next_stop": {
+        "id": "70069",
+        "name": "Central",
+        "description": "Central - Red Line - Ashmont/Braintree",
+        "orderIndex": 8
+      },
+      "description": "Kendall/MIT - Red Line - Ashmont/Braintree"
+    },
+    {
+      "id": "70080",
+      "name": "South Station",
+      "latitude": 42.352271,
+      "longitude": -71.055242,
+      "municipality": "Boston",
+      "wheelchair_boarding": 1,
+      "platform_name": "Alewife",
+      "train_line": "Red Line",
+      "direction": "Alewife",
+      "line_color": "DA291C",
+      "line_text_color": "FFFFFF",
+      "line_order_index": -1,
+      "total_stops_in_line": 0,
+      "orderIndex": 8,
+      "connections": [
+        "Downtown Crossing",
+        "Broadway"
+      ],
+      "transfer_stations": [
+        "South Station"
+      ],
+      "is_transfer_station": true,
+      "previous_stop": {
+        "id": "70078",
+        "name": "Downtown Crossing",
+        "description": "Downtown Crossing - Red Line - Alewife",
+        "orderIndex": 7
+      },
+      "next_stop": {
+        "id": "70082",
+        "name": "Broadway",
+        "description": "Broadway - Red Line - Alewife",
+        "orderIndex": 9
+      },
+      "description": "South Station - Red Line - Alewife"
+    },
+    {
+      "id": "70069",
+      "name": "Central",
+      "latitude": 42.365304,
+      "longitude": -71.103621,
+      "municipality": "Cambridge",
+      "wheelchair_boarding": 1,
+      "platform_name": "Ashmont/Braintree",
+      "train_line": "Red Line",
+      "direction": "Ashmont/Braintree",
+      "line_color": "DA291C",
+      "line_text_color": "FFFFFF",
+      "line_order_index": -1,
+      "total_stops_in_line": 0,
+      "orderIndex": 8,
+      "connections": [
+        "Harvard",
+        "Kendall/MIT"
+      ],
+      "transfer_stations": [],
+      "is_transfer_station": false,
+      "previous_stop": {
+        "id": "70071",
+        "name": "Kendall/MIT",
+        "description": "Kendall/MIT - Red Line - Ashmont/Braintree",
+        "orderIndex": 7
+      },
+      "next_stop": {
+        "id": "70067",
+        "name": "Harvard",
+        "description": "Harvard - Red Line - Ashmont/Braintree",
+        "orderIndex": 9
+      },
+      "description": "Central - Red Line - Ashmont/Braintree"
+    },
+    {
+      "id": "70067",
+      "name": "Harvard",
+      "latitude": 42.374663,
+      "longitude": -71.118814,
+      "municipality": "Cambridge",
+      "wheelchair_boarding": 1,
+      "platform_name": "Ashmont/Braintree",
+      "train_line": "Red Line",
+      "direction": "Ashmont/Braintree",
+      "line_color": "DA291C",
+      "line_text_color": "FFFFFF",
+      "line_order_index": -1,
+      "total_stops_in_line": 0,
+      "orderIndex": 9,
+      "connections": [
+        "Porter",
+        "Central"
+      ],
+      "transfer_stations": [],
+      "is_transfer_station": false,
+      "previous_stop": {
+        "id": "70069",
+        "name": "Central",
+        "description": "Central - Red Line - Ashmont/Braintree",
+        "orderIndex": 8
+      },
+      "next_stop": {
+        "id": "70063",
+        "name": "Davis",
+        "description": "Davis - Red Line - Ashmont/Braintree",
+        "orderIndex": 10
+      },
+      "description": "Harvard - Red Line - Ashmont/Braintree"
+    },
+    {
+      "id": "70088",
+      "name": "Savin Hill",
+      "latitude": 42.310591,
+      "longitude": -71.053612,
+      "municipality": "Boston",
+      "wheelchair_boarding": 1,
+      "platform_name": "Alewife",
+      "train_line": "Red Line",
+      "direction": "Alewife",
+      "line_color": "DA291C",
+      "line_text_color": "FFFFFF",
+      "line_order_index": -1,
+      "total_stops_in_line": 0,
+      "orderIndex": 9,
+      "connections": [
+        "JFK/UMass",
+        "Fields Corner"
+      ],
+      "transfer_stations": [],
+      "is_transfer_station": false,
+      "previous_stop": {
+        "id": "70084",
+        "name": "Andrew",
+        "description": "Andrew - Red Line - Alewife",
+        "orderIndex": 10
+      },
+      "next_stop": {
+        "id": "70090",
+        "name": "Fields Corner",
+        "description": "Fields Corner - Red Line - Alewife",
+        "orderIndex": 12
+      },
+      "description": "Savin Hill - Red Line - Alewife"
+    },
+    {
+      "id": "70082",
+      "name": "Broadway",
+      "latitude": 42.342622,
+      "longitude": -71.056967,
+      "municipality": "Boston",
+      "wheelchair_boarding": 1,
+      "platform_name": "Alewife",
+      "train_line": "Red Line",
+      "direction": "Alewife",
+      "line_color": "DA291C",
+      "line_text_color": "FFFFFF",
+      "line_order_index": -1,
+      "total_stops_in_line": 0,
+      "orderIndex": 9,
+      "connections": [
+        "South Station",
+        "Andrew"
+      ],
+      "transfer_stations": [],
+      "is_transfer_station": false,
+      "previous_stop": {
+        "id": "70080",
+        "name": "South Station",
+        "description": "South Station - Red Line - Alewife",
+        "orderIndex": 8
+      },
+      "next_stop": {
+        "id": "70084",
+        "name": "Andrew",
+        "description": "Andrew - Red Line - Alewife",
+        "orderIndex": 10
+      },
+      "description": "Broadway - Red Line - Alewife"
+    },
+    {
+      "id": "70084",
+      "name": "Andrew",
+      "latitude": 42.330154,
+      "longitude": -71.057655,
+      "municipality": "Boston",
+      "wheelchair_boarding": 1,
+      "platform_name": "Alewife",
+      "train_line": "Red Line",
+      "direction": "Alewife",
+      "line_color": "DA291C",
+      "line_text_color": "FFFFFF",
+      "line_order_index": -1,
+      "total_stops_in_line": 0,
+      "orderIndex": 10,
+      "connections": [
+        "Broadway",
+        "JFK/UMass"
+      ],
+      "transfer_stations": [],
+      "is_transfer_station": false,
+      "previous_stop": {
+        "id": "70082",
+        "name": "Broadway",
+        "description": "Broadway - Red Line - Alewife",
+        "orderIndex": 9
+      },
+      "next_stop": {
+        "id": "70088",
+        "name": "Savin Hill",
+        "description": "Savin Hill - Red Line - Alewife",
+        "orderIndex": 11
+      },
+      "description": "Andrew - Red Line - Alewife"
+    },
+    {
+      "id": "70090",
+      "name": "Fields Corner",
+      "latitude": 42.299935,
+      "longitude": -71.061945,
+      "municipality": "Boston",
+      "wheelchair_boarding": 1,
+      "platform_name": "Alewife",
+      "train_line": "Red Line",
+      "direction": "Alewife",
+      "line_color": "DA291C",
+      "line_text_color": "FFFFFF",
+      "line_order_index": -1,
+      "total_stops_in_line": 0,
+      "orderIndex": 12,
+      "connections": [
+        "Savin Hill",
+        "Shawmut"
+      ],
+      "transfer_stations": [],
+      "is_transfer_station": false,
+      "previous_stop": {
+        "id": "70088",
+        "name": "Savin Hill",
+        "description": "Savin Hill - Red Line - Alewife",
+        "orderIndex": 11
+      },
+      "next_stop": {
+        "id": "70092",
+        "name": "Shawmut",
+        "description": "Shawmut - Red Line - Alewife",
+        "orderIndex": 13
+      },
+      "description": "Fields Corner - Red Line - Alewife"
+    },
+    {
+      "id": "70092",
+      "name": "Shawmut",
+      "latitude": 42.293126,
+      "longitude": -71.065738,
+      "municipality": "Boston",
+      "wheelchair_boarding": 1,
+      "platform_name": "Alewife",
+      "train_line": "Red Line",
+      "direction": "Alewife",
+      "line_color": "DA291C",
+      "line_text_color": "FFFFFF",
+      "line_order_index": -1,
+      "total_stops_in_line": 0,
+      "orderIndex": 13,
+      "connections": [
+        "Fields Corner",
+        "Ashmont"
+      ],
+      "transfer_stations": [],
+      "is_transfer_station": false,
+      "previous_stop": {
+        "id": "70090",
+        "name": "Fields Corner",
+        "description": "Fields Corner - Red Line - Alewife",
+        "orderIndex": 12
+      },
+      "next_stop": {
+        "id": "70094",
+        "name": "Ashmont",
+        "description": "Ashmont - Red Line - Alewife",
+        "orderIndex": 14
+      },
+      "description": "Shawmut - Red Line - Alewife"
+    },
+    {
+      "id": "70094",
+      "name": "Ashmont",
+      "latitude": 42.28453,
+      "longitude": -71.063725,
+      "municipality": "Boston",
+      "wheelchair_boarding": 1,
+      "platform_name": "Alewife",
+      "train_line": "Red Line",
+      "direction": "Alewife",
+      "line_color": "DA291C",
+      "line_text_color": "FFFFFF",
+      "line_order_index": -1,
+      "total_stops_in_line": 0,
+      "orderIndex": 14,
+      "connections": [
+        "Shawmut"
+      ],
+      "transfer_stations": [
+        "Ashmont"
+      ],
+      "is_transfer_station": true,
+      "previous_stop": {
+        "id": "70092",
+        "name": "Shawmut",
+        "description": "Shawmut - Red Line - Alewife",
+        "orderIndex": 13
+      },
+      "next_stop": {
+        "id": "70098",
+        "name": "North Quincy",
+        "description": "North Quincy - Red Line - Alewife",
+        "orderIndex": 15
+      },
+      "description": "Ashmont - Red Line - Alewife"
+    },
+    {
+      "id": "70098",
+      "name": "North Quincy",
+      "latitude": 42.275802,
+      "longitude": -71.030144,
+      "municipality": "Quincy",
+      "wheelchair_boarding": 1,
+      "platform_name": "Alewife",
+      "train_line": "Red Line",
+      "direction": "Alewife",
+      "line_color": "DA291C",
+      "line_text_color": "FFFFFF",
+      "line_order_index": -1,
+      "total_stops_in_line": 0,
+      "orderIndex": 15,
+      "connections": [
+        "JFK/UMass",
+        "Wollaston"
+      ],
+      "transfer_stations": [],
+      "is_transfer_station": false,
+      "previous_stop": {
+        "id": "70094",
+        "name": "Ashmont",
+        "description": "Ashmont - Red Line - Alewife",
+        "orderIndex": 14
+      },
+      "next_stop": {
+        "id": "70100",
+        "name": "Wollaston",
+        "description": "Wollaston - Red Line - Alewife",
+        "orderIndex": 16
+      },
+      "description": "North Quincy - Red Line - Alewife"
+    },
+    {
+      "id": "70100",
+      "name": "Wollaston",
+      "latitude": 42.266788,
+      "longitude": -71.020457,
+      "municipality": "Quincy",
+      "wheelchair_boarding": 1,
+      "platform_name": "Alewife",
+      "train_line": "Red Line",
+      "direction": "Alewife",
+      "line_color": "DA291C",
+      "line_text_color": "FFFFFF",
+      "line_order_index": -1,
+      "total_stops_in_line": 0,
+      "orderIndex": 16,
+      "connections": [
+        "North Quincy",
+        "Quincy Center"
+      ],
+      "transfer_stations": [],
+      "is_transfer_station": false,
+      "previous_stop": {
+        "id": "70098",
+        "name": "North Quincy",
+        "description": "North Quincy - Red Line - Alewife",
+        "orderIndex": 15
+      },
+      "next_stop": {
+        "id": "70102",
+        "name": "Quincy Center",
+        "description": "Quincy Center - Red Line - Alewife",
+        "orderIndex": 17
+      },
+      "description": "Wollaston - Red Line - Alewife"
+    },
+    {
+      "id": "70102",
+      "name": "Quincy Center",
+      "latitude": 42.251809,
+      "longitude": -71.005409,
+      "municipality": "Quincy",
+      "wheelchair_boarding": 1,
+      "platform_name": "Alewife",
+      "train_line": "Red Line",
+      "direction": "Alewife",
+      "line_color": "DA291C",
+      "line_text_color": "FFFFFF",
+      "line_order_index": -1,
+      "total_stops_in_line": 0,
+      "orderIndex": 17,
+      "connections": [
+        "Wollaston",
+        "Quincy Adams"
+      ],
+      "transfer_stations": [],
+      "is_transfer_station": false,
+      "previous_stop": {
+        "id": "70100",
+        "name": "Wollaston",
+        "description": "Wollaston - Red Line - Alewife",
+        "orderIndex": 16
+      },
+      "next_stop": {
+        "id": "70104",
+        "name": "Quincy Adams",
+        "description": "Quincy Adams - Red Line - Alewife",
+        "orderIndex": 18
+      },
+      "description": "Quincy Center - Red Line - Alewife"
+    }
+  ]
+}
