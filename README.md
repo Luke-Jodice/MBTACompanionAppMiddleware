@@ -16,7 +16,7 @@ A fast, lightweight API server built with Bun and Hono that provides structured 
 - **Runtime**: [Bun](https://bun.sh) - Fast JavaScript runtime
 - **Framework**: [Hono](https://hono.dev) - Lightweight web framework
 - **Data**: MBTA GTFS data (routes, stops, lines)
-- **Language**: JavaScript (ES modules)
+- **Language**: JavaScript
 
 ## 📦 Installation
 
@@ -45,30 +45,34 @@ The server will start on `http://localhost:3000`
 
 ### Stop Object
 ```json
-{
-  "id": "70077",
-  "name": "Downtown Crossing",
-  "latitude": 42.355518,
-  "longitude": -71.060225,
-  "stop": "Downtown Crossing - Red Line - Ashmont/Braintree",
-  "trainLineName": "Red Line",
-  "direction": "Ashmont/Braintree",
-  "orderIndex": 8,
-  "totalStopsInLine": 22,
-  "previousStop": {
-    "id": "70078",
-    "name": "South Station",
-    "orderIndex": 7
+  "id": "70041",
+  "name": "State",
+  "latitude": 42.358978,
+  "longitude": -71.057598,
+  "municipality": "Boston",
+  "wheelchair_boarding": 1,
+  "platform_name": "Bowdoin",
+  "train_line": "Blue Line",
+  "direction": "Bowdoin",
+  "line_color": "003DA5",
+  "line_text_color": "FFFFFF",
+  "line_order_index": -1,
+  "total_stops_in_line": 0,
+  "orderIndex": 1,
+  "connections": [
+    "Government Center",
+    "Aquarium"
+  ],
+  "transfer_stations": [],
+  "is_transfer_station": false,
+  "previous_stop": {
+    [...]
   },
-  "nextStop": {
-    "id": "70076",
-    "name": "Park Street",
-    "orderIndex": 9
-  }
-}
+  "next_stop": {
+    [...]
+  },
+  "description": "State - Blue Line - Bowdoin"
 ```
-
-## 🔧 Development
 
 ## 🎯 Use Cases
 
@@ -76,7 +80,6 @@ The server will start on `http://localhost:3000`
 - **Real-time Updates**: Base layer for real-time transit information
 - **Route Planning**: Support for journey planning algorithms
 - **Data Analysis**: Clean, structured data for transit analytics
-- **Educational Tools**: Teaching resources for MBTA system understanding
 
 ## 🤝 Contributing
 
@@ -91,7 +94,3 @@ The server will start on `http://localhost:3000`
 - [MBTA](https://www.mbta.com/) for providing the transit data
 - [Bun](https://bun.sh) for the fast JavaScript runtime
 - [Hono](https://hono.dev) for the lightweight web framework
-
----
-
-Built with ❤️ for the Boston transit community
