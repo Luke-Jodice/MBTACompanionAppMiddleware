@@ -1,3 +1,4 @@
+import { color } from 'bun';
 import 'dotenv/config'
 const API_KEY = process.env.MBTA_API_KEY;
 //const STOP_ID = "place-sstat"; // Example: South Station
@@ -57,7 +58,8 @@ async function getNextThree(stopId, directionId, nextnum) {
           // Fallback to route name if headsign is not available
           endStopName = route.attributes.long_name;
         }
-        
+
+
         return {
           time: arrivalTime ? arrivalTime.toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" }) : null,
           endStop: endStopName,

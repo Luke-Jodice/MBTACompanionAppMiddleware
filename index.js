@@ -17,6 +17,25 @@ const app = new Hono();
 const port = 3000;
 console.log(`🚀 Server running at http://localhost:${port}`);
 
+// Serve static files from the public directory
+app.use('/*', async (c, next) => {
+  const url = new URL(c.req.url);
+  const path = url.pathname;
+  
+  // If it's the root path, serve index.html
+  if (path === '/' || path === '/index.html') {
+    try {
+      const fs = await import('fs/promises');
+      const html = await fs.readFile('./public/index.html', 'utf-8');
+      return c.html(html);
+    } catch (error) {
+      console.error('Error reading index.html:', error);
+      return c.text('Welcome to T-Bridge API!', 200);
+    }
+  }
+  
+  await next();
+});
 //
 //Usage example//
 //
