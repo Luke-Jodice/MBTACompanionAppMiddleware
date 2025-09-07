@@ -11,8 +11,5 @@
       "src": "/(.*)",
       "dest": "index.js"
     }
-  ],
-  "env": {
-    "MBTA_API_KEY": "@mbta_api_key"
-  }
+  ]
 }
