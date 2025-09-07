@@ -1,12 +1,23 @@
 import { Hono } from 'hono';
-import { StopManager } from './obj/stopmanager';
-import { getNextThree } from './livedata';
+import { StopManager } from './obj/stopmanager.js';
+import { getNextThree } from './livedata.js';
 
 //
 //Load data//
 //
-import stopdata from './orgstops-e.json';
+import stopdata from './orgstops-e.json' with { type: 'json' };
 const stopManager = new StopManager(stopdata.stops);
+
+const asciiArt = `╔═════════════════════════════════════════════════════════════════╗
+║                                                                 ║
+║    ███╗   ███╗██████╗ ████████╗ █████╗     █████╗ ██████╗ ██╗   ║
+║    ████╗ ████║██╔══██╗╚══██╔══╝██╔══██╗   ██╔══██╗██╔══██╗██║   ║
+║    ██╔████╔██║██████╔╝   ██║   ███████║   ███████║██████╔╝██║   ║
+║    ██║╚██╔╝██║██╔══██╗   ██║   ██╔══██║   ██╔══██║██╔═══╝ ██║   ║
+║    ██║ ╚═╝ ██║██████╔╝   ██║   ██║  ██║   ██║  ██║██║     ██║   ║
+║    ╚═╝     ╚═╝╚═════╝    ╚═╝   ╚═╝  ╚═╝   ╚═╝  ╚═╝╚═╝     ╚═╝   ║
+║                                                                 ║
+╚═════════════════════════════════════════════════════════════════╝`;
 
 
 //
@@ -20,19 +31,27 @@ console.log(`🚀 Server running at http://localhost:${port}`);
 // Serve static files from the public directory
 app.use('/*', async (c, next) => {
   const url = new URL(c.req.url);
-  const path = url.pathname;
+  const pathname = url.pathname;
   
   // If it's the root path, serve index.html
-  if (path === '/' || path === '/index.html') {
+  if (pathname === '/index.html') {
     try {
       const fs = await import('fs/promises');
-      const html = await fs.readFile('./public/index.html', 'utf-8');
+      const path = await import('path');
+      const htmlPath = path.join(process.cwd(), 'public', 'index.html');
+      const html = await fs.readFile(htmlPath, 'utf-8');
       return c.html(html);
     } catch (error) {
       console.error('Error reading index.html:', error);
+      console.error('Current working directory:', process.cwd());
+      console.error('Attempted path:', path.join(process.cwd(), 'public', 'index.html'));
       return c.text('Welcome to T-Bridge API!', 200);
     }
   }
+if (pathname === '/') {
+  const welcomeMessage = asciiArt + '\n\nDeveloped by Luke Jodice (luke-jodice) on Github\nPlease read our documentation on the different available calls that we have available to the public';
+  return c.text(welcomeMessage,200);
+}
   
   await next();
 });
@@ -252,6 +271,18 @@ app.get('/times/out/:stopId/:nextnum', async (c) =>{
 });
 
 
+// For local development, start the server
+if (process.env.NODE_ENV !== 'production') {
+  const { serve } = await import('@hono/node-server');
+  serve({
+    fetch: app.fetch,
+    port: port
+  }, (info) => {
+    console.log(`🚀 Server running at http://localhost:${info.port}`);
+  });
+}
+
+// For Vercel deployment
 export default {
   port,
   fetch: app.fetch,
