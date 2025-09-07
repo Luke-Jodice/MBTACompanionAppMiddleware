@@ -1,4 +1,3 @@
-import { color } from 'bun';
 import 'dotenv/config'
 const API_KEY = process.env.MBTA_API_KEY;
 //const STOP_ID = "place-sstat"; // Example: South Station
