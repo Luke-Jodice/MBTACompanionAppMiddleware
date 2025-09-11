@@ -6,6 +6,7 @@ import { getNextThree } from './livedata.js';
 //Load data//
 //
 import stopdata from './orgstops-e.json' with { type: 'json' };
+import data from './obj/final2.json' with { type: 'json' };
 const stopManager = new StopManager(stopdata.stops);
 
 const asciiArt = `╔═════════════════════════════════════════════════════════════════╗
@@ -26,7 +27,7 @@ const asciiArt = `╔═══════════════════�
 const app = new Hono();
 
 const port = 3000;
-console.log(`🚀 Server running at http://localhost:${port}`);
+// console.log(`🚀 Server running at http://localhost:${port}`);
 
 // Serve static files from the public directory
 app.use('/*', async (c, next) => {
@@ -48,6 +49,32 @@ app.use('/*', async (c, next) => {
       return c.text('Welcome to T-Bridge API!', 200);
     }
   }
+if (pathname === '/docs'){
+  try {
+    const fs = await import('fs/promises');
+    const path = await import('path');
+    const htmlPath = path.join(process.cwd(), 'public', 'docs.html');
+    const html = await fs.readFile(htmlPath, 'utf-8');
+    return c.html(html);
+  } catch (error) {
+    console.error('Error reading index.html:', error);
+    console.error('Current working directory:', process.cwd());
+    console.error('Attempted path:', path.join(process.cwd(), 'public', 'index.html'));
+    return c.text('Welcome to T-Bridge API!', 200);
+  }
+}
+if (pathname === '/network-graph'){
+  try {
+    const fs = await import('fs/promises');
+    const path = await import('path');
+    const htmlPath = path.join(process.cwd(), 'public', 'graph.html');
+    const html = await fs.readFile(htmlPath, 'utf-8');
+    return c.html(html);
+  } catch (error) {
+    console.error('Error reading network-graph.html:', error);
+    return c.text('Network graph not available', 200);
+  }
+}
 if (pathname === '/') {
   const welcomeMessage = asciiArt + '\n\nDeveloped by Luke Jodice (luke-jodice) on Github\nPlease read our documentation on the different available calls that we have available to the public';
   return c.text(welcomeMessage,200);
@@ -123,6 +150,13 @@ app.get('/train/id/:id', (c) => {
     stop: stop
   });
 });
+
+app.get('/orgstops-e', (c) =>{
+return c.json(stopdata)
+});
+app.get('/final2', (c) =>{
+  return c.json(data)
+  });
 
 //gets closest train to your location
 app.get('/train/closest/:lat/:long', (c) => {

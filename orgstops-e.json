@@ -27,7 +27,7 @@
       "transfer_stations": [],
       "is_transfer_station": false,
       "previous_stop": {
-        "id": "70039",
+        "id": "70040",
         "name": "Government Center",
         "description": "Government Center - Blue Line - Bowdoin",
         "orderIndex": 0
@@ -97,7 +97,7 @@
       "transfer_stations": [],
       "is_transfer_station": false,
       "previous_stop": {
-        "id": "70056",
+        "id": "70053",
         "name": "Beachmont",
         "description": "Beachmont - Blue Line - Wonderland",
         "orderIndex": 1
@@ -558,7 +558,7 @@
         "orderIndex": 8
       },
       "next_stop": {
-        "id": "70059",
+        "id": "70040",
         "name": "Wonderland",
         "description": "Wonderland - Blue Line - Bowdoin",
         "orderIndex": 10
@@ -593,7 +593,7 @@
         "orderIndex": 8
       },
       "next_stop": {
-        "id": "70038",
+        "id": "70045",
         "name": "Bowdoin",
         "description": "Bowdoin - Blue Line - Wonderland",
         "orderIndex": 10
@@ -622,7 +622,7 @@
       "transfer_stations": [],
       "is_transfer_station": false,
       "previous_stop": {
-        "id": "70035",
+        "id": "70034",
         "name": "Malden Center",
         "description": "Malden Center - Orange Line - Oak Grove",
         "orderIndex": 0
@@ -1721,6 +1721,42 @@
         "orderIndex": 17
       },
       "description": "Wellington - Orange Line - Forest Hills"
+    },
+    {
+      "id": "70034",
+      "name": "Malden Center",
+      "latitude": 42.426632,
+      "longitude": -71.07411,
+      "municipality": "Malden",
+      "wheelchair_boarding": 1,
+      "platform_name": "Forest Hills",
+      "train_line": "Orange Line",
+      "direction": "Forest Hills",
+      "line_color": "ED8B00",
+      "line_text_color": "FFFFFF",
+      "line_order_index": -1,
+      "total_stops_in_line": 0,
+      "orderIndex": 9,
+      "connections": [
+        "Wellington",
+        "Oak Grove"
+      ],
+      "transfer_stations": [
+        "Haverhill Line (Commuter Rail)"
+      ],
+      "is_transfer_station": true,
+      "previous_stop": {
+        "id": "70032",
+        "name": "Wellington",
+        "description": "Wellington - Orange Line - Forest Hills",
+        "orderIndex": 8
+      },
+      "next_stop": {
+        "id": "70036",
+        "name": "Oak Grove",
+        "description": "Oak Grove - Orange Line - Forest Hills",
+        "orderIndex": 10
+      }
     },
     {
       "id": "70066",
