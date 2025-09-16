@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>T-Bridge API Documentation</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body { font-family: sans-serif; margin: 2em; line-height: 1.6; color: #333; }
+    h1 { border-bottom: 2px solid #ccc; padding-bottom: 0.3em; }
+    h2 { margin-top: 1.5em; }
+    code { background: #f4f4f4; padding: 2px 4px; border-radius: 4px; }
+    section { margin-bottom: 2em; }
+    .path { font-weight: bold; margin-top: 1em; }
+    pre { background: #f9f9f9; padding: 1em; overflow-x: auto; border: 1px solid #ddd; }
+  </style>
+</head>
+<body>
+
+  <h1>T-Bridge API Endpoints</h1>
+  <!-- <section>
+    <h2>Health & Utility</h2>
+
+    <p class="path"><code>GET /health</code></p>
+    <p>Returns API health status and current timestamp.</p>
+    <pre><code>{
+  "status": "healthy",
+  "timestamp": "2025-09-15T12:34:56.789Z"
+}</code></pre>
+
+    <p class="path"><code>GET /hello?name=YourName</code></p>
+    <p>Greets the user. Optional query parameter <code>name</code> (default is "World").</p>
+    <pre><code>{
+  "message": "Hello, Alice!",
+  "timestamp": "2025-09-15T12:34:56.789Z"
+}</code></pre>
+  </section> -->
+
+  <section>
+    <h2>Train Information</h2>
+
+    <p class="path"><code>GET /train/:name</code></p>
+    <p>Returns stop data for all stops that match the given <code>name</code>.</p>
+    <pre><code>{
+  "status": "200",
+  "train": "State",
+  "stops": [ { "id": "70041", "name": "State", "line": "Blue Line" } ],
+  "count": 1
+}</code></pre>
+
+    <p class="path"><code>GET /train/id/:id</code></p>
+    <p>Returns stop details for a specific stop ID. Returns <code>404</code> if not found.</p>
+    <pre><code>{
+  "status": "200",
+  "stop": { "id": "70041", "name": "State", "line": "Blue Line" }
+}</code></pre>
+
+    <p class="path"><code>GET /train/closest/:lat/:long</code></p>
+    <p>Finds the stop closest to the given latitude and longitude. Returns stop details and distance.</p>
+    <pre><code>{
+  "status": "200",
+  "closestStop": { "id": "70041", "name": "State", "line": "Blue Line" },
+  "distance": 0.0023
+}</code></pre>
+  </section>
+
+  <section>
+    <h2>Lines</h2>
+
+    <p class="path"><code>GET /line/:name</code></p>
+    <p>Returns all stops along the given line name, with a total count.</p>
+    <pre><code>{
+  "status": "200",
+  "line": "Blue Line",
+  "stops": [ { "id": "70041", "name": "State" }, { "id": "70042", "name": "Airport" } ],
+  "count": 2
+}</code></pre>
+
+    <p class="path"><code>GET /route/:start/:end</code></p>
+    <p>Intended to return route information between two stops, but currently not implemented.</p>
+  </section>
+
+  <section>
+    <h2>Static Data</h2>
+
+    <p class="path"><code>GET /orgstops-e</code></p>
+    <p>Returns the raw stop data JSON used internally.</p>
+    <pre><code>{
+  "stops": [ { "id": "70041", "name": "State" }, { "id": "70042", "name": "Airport" } ]
+}</code></pre>
+
+    <p class="path"><code>GET /maindata</code></p>
+    <p>Returns the main data JSON set used internally.</p>
+    <pre><code>{
+  "lines": [ "Blue Line", "Orange Line" ],
+  "metadata": { "updated": "2025-09-15T12:34:56Z" }
+}</code></pre>
+  </section>
+
+  <section>
+    <h2>Live Data</h2>
+
+    <p class="path"><code>GET /times/both/:stopId/:nextnum</code></p>
+    <p>Returns the next <code>nextnum</code> inbound and outbound trains for the stop with ID <code>stopId</code>.</p>
+    <pre><code>{
+  "status": "200",
+  "stopId": "70041",
+  "inbound": [ "Train A at 12:40", "Train B at 12:55" ],
+  "outbound": [ "Train C at 12:42", "Train D at 12:58" ]
+}</code></pre>
+
+    <p class="path"><code>GET /times/in/:stopId/:nextnum</code></p>
+    <p>Returns the next <code>nextnum</code> inbound trains for the stop with ID <code>stopId</code>.</p>
+    <pre><code>{
+  "status": "200",
+  "stopId": "70041",
+  "direction": "inbound",
+  "data": [ "Train A at 12:40", "Train B at 12:55" ]
+}</code></pre>
+
+    <p class="path"><code>GET /times/out/:stopId/:nextnum</code></p>
+    <p>Returns the next <code>nextnum</code> outbound trains for the stop with ID <code>stopId</code>.</p>
+    <pre><code>{
+  "status": "200",
+  "stopId": "70041",
+  "direction": "outbound",
+  "data": [ "Train C at 12:42", "Train D at 12:58" ]
+}</code></pre>
+  </section>
+
+  <footer style="margin-top:2em; font-size:0.9em; color:#666;">
+    &copy; 2025 T-Bridge API
+  </footer>
+
+</body>
+</html>

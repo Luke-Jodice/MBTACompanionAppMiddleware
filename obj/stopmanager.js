@@ -2,7 +2,6 @@
 class StopManager {
     constructor(stopsData) {
         this.stops = stopsData;
-        this.stopsById = new Map();
         this.stopsByName = new Map();
         this.stopsByLine = new Map();
         
@@ -11,8 +10,6 @@ class StopManager {
     
     buildIndexes() {
         this.stops.forEach(stop => {
-            // Index by ID
-            this.stopsById.set(stop.id, stop);
             
             // Index by name (can have multiple stops with same name on different lines)
             if (!this.stopsByName.has(stop.name)) {
@@ -26,11 +23,6 @@ class StopManager {
             }
             this.stopsByLine.get(stop.train_line).push(stop);
         });
-    }
-    
-    // Get stop by ID
-    getById(id) {
-        return this.stopsById.get(id);
     }
     
     // Get all stops with a specific name
@@ -68,14 +60,20 @@ class StopManager {
         return results;
     }
     
-    // Get transfer stations (stops that connect to other lines)
-    getTransferStations() {
-        return this.stops.filter(stop => stop.is_transfer_station);
-    }
+    // // Get transfer stations (stops that connect to other lines)
+    // getTransferStations() {
+    //     return this.stops.filter(stop => stop.is_transfer_station);
+    // }
     
-    // Get stops with wheelchair access
-    getWheelchairAccessible() {
-        return this.stops.filter(stop => stop.wheelchair_boarding === 1);
+    // // Get stops with wheelchair access
+    // getWheelchairAccessible() {
+    //     return this.stops.filter(stop => stop.wheelchair_boarding === 1);
+    // }
+
+    //returns true if has multiple stops before and after
+    getTrainHubs()
+    {
+        return this.stops.filter(stop => stop.isHub);
     }
 
 }

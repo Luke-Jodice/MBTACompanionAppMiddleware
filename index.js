@@ -5,9 +5,12 @@ import { getNextThree } from './livedata.js';
 //
 //Load data//
 //
-import stopdata from './orgstops-e.json' with { type: 'json' };
-import data from './obj/final2.json' with { type: 'json' };
+import stopdata from './obj/orgstops-e.json' with { type: 'json' };
+import data from './obj/maindata.json' with { type: 'json' };
 const stopManager = new StopManager(stopdata.stops);
+const stopManager2 = new StopManager(data);
+
+console.log(stopManager2.getTrainHubs())
 
 const asciiArt = `╔═════════════════════════════════════════════════════════════════╗
 ║                                                                 ║
@@ -76,7 +79,7 @@ if (pathname === '/network-graph'){
   }
 }
 if (pathname === '/') {
-  const welcomeMessage = asciiArt + '\n\nDeveloped by Luke Jodice (luke-jodice) on Github\nPlease read our documentation on the different available calls that we have available to the public';
+  const welcomeMessage = asciiArt + '\n\nDeveloped by Luke Jodice (luke-jodice) on Github\n\nPlease read our documentation on the different available calls that we have available to the public';
   return c.text(welcomeMessage,200);
 }
   
@@ -91,6 +94,7 @@ if (pathname === '/') {
 // // console.log('All stops named "State":', stopManager.getByName('State'));
 // console.log('All Blue Line stops:', stopManager.getByLine('Blue Line').length);
 // console.log('Transfer stations:', stopManager.getTransferStations().length);
+// console.log(stopManager.getTrainHubs())
 
 
 //
@@ -154,7 +158,7 @@ app.get('/train/id/:id', (c) => {
 app.get('/orgstops-e', (c) =>{
 return c.json(stopdata)
 });
-app.get('/final2', (c) =>{
+app.get('/maindata', (c) =>{
   return c.json(data)
   });
 

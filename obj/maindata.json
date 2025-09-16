@@ -10,9 +10,25 @@
     "transfer_stations": ["Science Park/West End"],
     "previous_stop": ["North-station"],
     "next_stop": [""],
-    "description": "Science Park/West End - Unknown Line - Unknown",
+    "description": "Science Park/West End",
+    "isHub":false,
     "line_short": "place-spmnl"
   },
+  {
+    "name": "South Station",
+    "latitude": 42.3520,  
+    "longitude": -71.0552,  
+    "municipality": "Boston",
+    "wheelchair_boarding": 1,
+    "platform_name": "Side platforms (Red Line), Side platforms (Silver Line underground), Street platform (Silver Line surface)",  
+    "train_line": ["Red Line"],  
+    "transfer_stations": ["Downtown Crossing"],
+    "previous_stop": ["Downtown Crossing"],
+    "next_stop": [""], 
+    "description": "South Station - Red Line",  
+    "isHub": true,
+    "line_short": "place-sstat" 
+  },  
   {
     "name": "Boylston",
     "latitude": 42.353214,
@@ -24,7 +40,8 @@
     "transfer_stations": ["Boylston"],
     "previous_stop": ["Park Street"],
     "next_stop": ["Arlington"],
-    "description": "Boylston - Unknown Line - Unknown",
+    "description": "Boylston",
+    "isHub":false,
     "line_short": "place-boyls"
   },
   {
@@ -38,7 +55,8 @@
     "transfer_stations": ["Dean Road"],
     "previous_stop": ["Tappan Street"],
     "next_stop": ["Englewood Avenue"],
-    "description": "Dean Road - Unknown Line - Unknown",
+    "description": "Dean Road",
+    "isHub":false,
     "line_short": "place-denrd"
   },
   {
@@ -52,7 +70,8 @@
     "transfer_stations": ["Copley"],
     "previous_stop": ["Arlington"],
     "next_stop": ["Hynes Convention Center"],
-    "description": "Copley - Unknown Line - Unknown",
+    "description": "Copley",
+    "isHub":false,
     "line_short": "place-coecl"
   },
   {
@@ -66,7 +85,8 @@
     "transfer_stations": ["Boston University Central"],
     "previous_stop": ["Boston University East"],
     "next_stop": ["Boston University West"],
-    "description": "Boston University Central - Unknown Line - Unknown",
+    "description": "Boston University Central",
+    "isHub":false,
     "line_short": "place-bucen"
   },
   {
@@ -80,7 +100,8 @@
     "transfer_stations": ["Milton"],
     "previous_stop": ["Butler"],
     "next_stop": ["Central Avenue"],
-    "description": "Milton - Unknown Line - Unknown",
+    "description": "Milton",
+    "isHub":false,
     "line_short": "place-miltt"
   },
   {
@@ -94,7 +115,8 @@
     "transfer_stations": ["Saint Paul Street"],
     "previous_stop": ["Hawes Street"],
     "next_stop": ["Coolidge Corner"],
-    "description": "Saint Paul Street - Unknown Line - Unknown",
+    "description": "Saint Paul Street",
+    "isHub":false,
     "line_short": "place-stpul"
   },
   {
@@ -108,7 +130,8 @@
     "transfer_stations": ["Symphony"],
     "previous_stop": ["Prudential"],
     "next_stop": ["Northeastern University"],
-    "description": "Symphony - Unknown Line - Unknown",
+    "description": "Symphony",
+    "isHub":false,
     "line_short": "place-symcl"
   },
   {
@@ -122,7 +145,8 @@
     "transfer_stations": ["Griggs Street"],
     "previous_stop": ["Harvard Avenue"],
     "next_stop": ["Allston Street"],
-    "description": "Griggs Street - Unknown Line - Unknown",
+    "description": "Griggs Street",
+    "isHub":false,
     "line_short": "place-grigg"
   },
   {
@@ -136,7 +160,8 @@
     "transfer_stations": ["Chestnut Hill Avenue"],
     "previous_stop": ["Chiswick Road"],
     "next_stop": ["South Street"],
-    "description": "Chestnut Hill Avenue - Unknown Line - Unknown",
+    "description": "Chestnut Hill Avenue",
+    "isHub":false,
     "line_short": "place-chill"
   },
   {
@@ -150,7 +175,8 @@
     "transfer_stations": ["Beaconsfield"],
     "previous_stop": ["Brookline Hills"],
     "next_stop": ["Reservoir"],
-    "description": "Beaconsfield - Unknown Line - Unknown",
+    "description": "Beaconsfield",
+    "isHub":false,
     "line_short": "place-bcnfd"
   },
   {
@@ -164,7 +190,8 @@
     "transfer_stations": ["Kenmore"],
     "previous_stop": [""],
     "next_stop": ["Hynes Convention Center"],
-    "description": "Kenmore - Unknown Line - Unknown",
+    "description": "Kenmore",
+    "isHub":false,
     "line_short": "place-kencl"
   },
   {
@@ -178,7 +205,8 @@
     "transfer_stations": ["Government Center"],
     "previous_stop": ["Park Street"],
     "next_stop": ["Haymarket"],
-    "description": "Government Center - Unknown Line - Unknown",
+    "description": "Government Center",
+    "isHub":false,
     "line_short": "place-gover"
   },
   {
@@ -192,7 +220,8 @@
     "transfer_stations": ["Englewood Avenue"],
     "previous_stop": ["Englewood Avenue"],
     "next_stop": ["Cleveland Circle"],
-    "description": "Englewood Avenue - Unknown Line - Unknown",
+    "description": "Englewood Avenue",
+    "isHub":false,
     "line_short": "place-engav"
   },
   {
@@ -206,7 +235,8 @@
     "transfer_stations": ["Riverside"],
     "previous_stop": ["Woodland"],
     "next_stop": [""],
-    "description": "Riverside - Unknown Line - Unknown",
+    "description": "Riverside",
+    "isHub":false,
     "line_short": "place-river"
   },
   {
@@ -220,7 +250,8 @@
     "transfer_stations": ["Mattapan"],
     "previous_stop": ["Capen Street"],
     "next_stop": [""],
-    "description": "Mattapan - Unknown Line - Unknown",
+    "description": "Mattapan",
+    "isHub":false,
     "line_short": "place-matt"
   },
   {
@@ -234,7 +265,8 @@
     "transfer_stations": ["Woodland"],
     "previous_stop": ["Waban"],
     "next_stop": ["Riverside"],
-    "description": "Woodland - Unknown Line - Unknown",
+    "description": "Woodland",
+    "isHub":false,
     "line_short": "place-woodl"
   },
   {
@@ -248,7 +280,8 @@
     "transfer_stations": ["Northeastern University"],
     "previous_stop": ["Symphony"],
     "next_stop": ["Museum of Fine Arts"],
-    "description": "Northeastern University - Unknown Line - Unknown",
+    "description": "Northeastern University",
+    "isHub":false,
     "line_short": "place-nuniv"
   },
   {
@@ -262,7 +295,8 @@
     "transfer_stations": ["Mattapan"],
     "previous_stop": ["Capen Street"],
     "next_stop": [""],
-    "description": "Mattapan - Unknown Line - Unknown",
+    "description": "Mattapan",
+    "isHub":false,
     "line_short": "place-matt"
   },
   {
@@ -272,11 +306,12 @@
     "municipality": "Boston",
     "wheelchair_boarding": 1,
     "platform_name": "Boston College",
-    "train_line": "Green Line",
+    "train_line": "Green/Red Line",
     "transfer_stations": ["Park Street"],
     "previous_stop": ["Government Center", "Charles/MGH"],
     "next_stop": ["Boylston", "Downtown Crossing"],
-    "description": "Park Street - Unknown Line - Unknown",
+    "description": "Park Street - Green/Red Line - Unknown",
+    "isHub":true,
     "line_short": "place-pktrm"
   },
   {
@@ -290,7 +325,8 @@
     "transfer_stations": ["Valley Road"],
     "previous_stop": ["Central Avenue"],
     "next_stop": ["Capen Street"],
-    "description": "Valley Road - Unknown Line - Unknown",
+    "description": "Valley Road",
+    "isHub":false,
     "line_short": "place-valrd"
   },
   {
@@ -304,7 +340,8 @@
     "transfer_stations": ["Medford/Tufts"],
     "previous_stop": ["Chinatown"],
     "next_stop": ["Back Bay"],
-    "description": "Medford/Tufts - Unknown Line - Unknown",
+    "description": "Medford/Tufts",
+    "isHub":false,
     "line_short": "place-mdftf"
   },
   {
@@ -318,7 +355,8 @@
     "transfer_stations": ["Waban"],
     "previous_stop": ["Eliot"],
     "next_stop": ["Woodland"],
-    "description": "Waban - Unknown Line - Unknown",
+    "description": "Waban",
+    "isHub":false,
     "line_short": "place-waban"
   },
   {
@@ -332,7 +370,8 @@
     "transfer_stations": ["Amory Street"],
     "previous_stop": ["Babcock Street"],
     "next_stop": ["Boston University West"],
-    "description": "Amory Street - Unknown Line - Unknown",
+    "description": "Amory Street",
+    "isHub":false,
     "line_short": "place-amory"
   },
   {
@@ -346,7 +385,8 @@
     "transfer_stations": ["Reservoir"],
     "previous_stop": ["Chestnut Hill"],
     "next_stop": ["Beaconsfield"],
-    "description": "Reservoir - Unknown Line - Unknown",
+    "description": "Reservoir",
+    "isHub":false,
     "line_short": "place-rsmnl"
   },
   {
@@ -360,7 +400,8 @@
     "transfer_stations": ["Blandford Street"],
     "previous_stop": ["Kenmore"],
     "next_stop": ["Boston University East"],
-    "description": "Blandford Street - Unknown Line - Unknown",
+    "description": "Blandford Street",
+    "isHub":false,
     "line_short": "place-bland"
   },
   {
@@ -374,7 +415,8 @@
     "transfer_stations": ["South Street"],
     "previous_stop": ["Chestnut Hill Avenue"],
     "next_stop": ["Boston College"],
-    "description": "South Street - Unknown Line - Unknown",
+    "description": "South Street",
+    "isHub":false,
     "line_short": "place-sougr"
   },
   {
@@ -388,7 +430,8 @@
     "transfer_stations": ["Englewood Avenue"],
     "previous_stop": ["Englewood Avenue"],
     "next_stop": ["Cleveland Circle"],
-    "description": "Englewood Avenue - Unknown Line - Unknown",
+    "description": "Englewood Avenue",
+    "isHub":false,
     "line_short": "place-engav"
   },
   {
@@ -402,7 +445,8 @@
     "transfer_stations": ["Hynes Convention Center"],
     "previous_stop": ["Copley"],
     "next_stop": ["Kenmore"],
-    "description": "Hynes Convention Center - Unknown Line - Unknown",
+    "description": "Hynes Convention Center",
+    "isHub":false,
     "line_short": "place-hymnl"
   },
   {
@@ -416,7 +460,8 @@
     "transfer_stations": ["Central Avenue"],
     "previous_stop": ["Milton"],
     "next_stop": ["Valley Road"],
-    "description": "Central Avenue - Unknown Line - Unknown",
+    "description": "Central Avenue",
+    "isHub":false,
     "line_short": "place-cenav"
   },
   {
@@ -430,7 +475,8 @@
     "transfer_stations": ["Woodland"],
     "previous_stop": ["Waban"],
     "next_stop": ["Riverside"],
-    "description": "Woodland - Unknown Line - Unknown",
+    "description": "Woodland",
+    "isHub":false,
     "line_short": "place-woodl"
   },
   {
@@ -444,7 +490,8 @@
     "transfer_stations": ["Ashmont"],
     "previous_stop": [""],
     "next_stop": ["Cedar Grove"],
-    "description": "Ashmont - Unknown Line - Unknown",
+    "description": "Ashmont",
+    "isHub":false,
     "line_short": "place-asmnl"
   },
   {
@@ -458,7 +505,8 @@
     "transfer_stations": ["Back of the Hill"],
     "previous_stop": ["Riverway"],
     "next_stop": ["Heath Street"],
-    "description": "Back of the Hill - Unknown Line - Unknown",
+    "description": "Back of the Hill",
+    "isHub":false,
     "line_short": "place-bckhl"
   },
   {
@@ -472,7 +520,8 @@
     "transfer_stations": ["Boston College"],
     "previous_stop": ["South-station"],
     "next_stop": [""],
-    "description": "Boston College - Unknown Line - Unknown",
+    "description": "Boston College",
+    "isHub":false,
     "line_short": "place-lake"
   },
   {
@@ -486,7 +535,8 @@
     "transfer_stations": ["Babcock Street"],
     "previous_stop": ["Amory Street"],
     "next_stop": ["Packard's Corner"],
-    "description": "Babcock Street - Unknown Line - Unknown",
+    "description": "Babcock Street",
+    "isHub":false,
     "line_short": "place-babck"
   },
   {
@@ -496,11 +546,13 @@
     "municipality": "Boston",
     "wheelchair_boarding": 1,
     "platform_name": "Lechmere & North",
-    "train_line": "Unknown Line",
+    "train_line": "Green/Orange Line",
     "transfer_stations": ["North Station"],
-    "previous_stop": null,
-    "next_stop": null,
-    "description": "North Station - Unknown Line - Unknown"
+    "previous_stop": ["Haymarket"],
+    "next_stop": ["Community College", "Science Park/West End"],
+    "isHub":true,
+    "description": "North Station - Green/Orange Line - Unknown",
+    "line_short": "place-north"
   },
   {
     "name": "Babcock Street",
@@ -513,7 +565,8 @@
     "transfer_stations": ["Babcock Street"],
     "previous_stop": ["Amory Street"],
     "next_stop": ["Packard's Corner"],
-    "description": "Babcock Street - Unknown Line - Unknown",
+    "description": "Babcock Street",
+    "isHub":false,
     "line_short": "place-babck"
   },
   {
@@ -527,7 +580,8 @@
     "transfer_stations": ["Brookline Hills"],
     "previous_stop": ["Brookline Village"],
     "next_stop": ["Beaconsfield"],
-    "description": "Brookline Hills - Unknown Line - Unknown",
+    "description": "Brookline Hills",
+    "isHub":false,
     "line_short": "place-brkhl"
   },
   {
@@ -541,7 +595,8 @@
     "transfer_stations": ["Ball Square"],
     "previous_stop": ["Magoun Square"],
     "next_stop": ["Medford/Tufts"],
-    "description": "Ball Square - Unknown Line - Unknown",
+    "description": "Ball Square",
+    "isHub":false,
     "line_short": "place-balsq"
   },
   {
@@ -555,7 +610,8 @@
     "transfer_stations": ["East Somerville"],
     "previous_stop": ["Lechmere"],
     "next_stop": ["Gilman Square"],
-    "description": "East Somerville - Unknown Line - Unknown",
+    "description": "East Somerville",
+    "isHub":false,
     "line_short": "place-esomr"
   },
   {
@@ -569,7 +625,8 @@
     "transfer_stations": ["Park Street"],
     "previous_stop": ["Government Center", "Charles/MGH"],
     "next_stop": ["Boylston", "Downtown Crossing"],
-    "description": "Park Street - Unknown Line - Unknown",
+    "description": "Park Street",
+    "isHub":false,
     "line_short": "place-pktrm"
   },
   {
@@ -583,7 +640,8 @@
     "transfer_stations": ["Park Street"],
     "previous_stop": ["Government Center", "Charles/MGH"],
     "next_stop": ["Boylston", "Downtown Crossing"],
-    "description": "Park Street - Unknown Line - Unknown",
+    "description": "Park Street",
+    "isHub":false,
     "line_short": "place-pktrm"
   },
   {
@@ -597,7 +655,8 @@
     "transfer_stations": ["Boston University Central"],
     "previous_stop": ["Boston University East"],
     "next_stop": ["Boston University West"],
-    "description": "Boston University Central - Unknown Line - Unknown",
+    "description": "Boston University Central",
+    "isHub":false,
     "line_short": "place-bucen"
   },
   {
@@ -611,7 +670,8 @@
     "transfer_stations": ["Valley Road"],
     "previous_stop": ["Central Avenue"],
     "next_stop": ["Capen Street"],
-    "description": "Valley Road - Unknown Line - Unknown",
+    "description": "Valley Road",
+    "isHub":false,
     "line_short": "place-valrd"
   },
   {
@@ -625,7 +685,8 @@
     "transfer_stations": ["Medford/Tufts"],
     "previous_stop": ["Chinatown"],
     "next_stop": ["Back Bay"],
-    "description": "Medford/Tufts - Unknown Line - Unknown",
+    "description": "Medford/Tufts",
+    "isHub":false,
     "line_short": "place-mdftf"
   },
   {
@@ -639,7 +700,8 @@
     "transfer_stations": ["Museum of Fine Arts"],
     "previous_stop": ["Northeastern University"],
     "next_stop": ["Longwood Medical Area"],
-    "description": "Museum of Fine Arts - Unknown Line - Unknown",
+    "description": "Museum of Fine Arts",
+    "isHub":false,
     "line_short": "place-mfa"
   },
   {
@@ -653,7 +715,8 @@
     "transfer_stations": ["Eliot"],
     "previous_stop": ["Newton Highlands"],
     "next_stop": ["Waban"],
-    "description": "Eliot - Unknown Line - Unknown",
+    "description": "Eliot",
+    "isHub":false,
     "line_short": "place-eliot"
   },
   {
@@ -667,7 +730,8 @@
     "transfer_stations": ["East Somerville"],
     "previous_stop": ["Lechmere"],
     "next_stop": ["Gilman Square"],
-    "description": "East Somerville - Unknown Line - Unknown",
+    "description": "East Somerville",
+    "isHub":false,
     "line_short": "place-esomr"
   },
   {
@@ -681,7 +745,8 @@
     "transfer_stations": ["Boston University East"],
     "previous_stop": ["Blandford Street"],
     "next_stop": ["Boston University Central"],
-    "description": "Boston University East - Unknown Line - Unknown",
+    "description": "Boston University East",
+    "isHub":false,
     "line_short": "place-buest"
   },
   {
@@ -695,7 +760,8 @@
     "transfer_stations": ["Heath Street"],
     "previous_stop": ["Back of the Hill"],
     "next_stop": [""],
-    "description": "Heath Street - Unknown Line - Unknown",
+    "description": "Heath Street",
+    "isHub":false,
     "line_short": "place-hsmnl"
   },
   {
@@ -709,7 +775,8 @@
     "transfer_stations": ["Chestnut Hill"],
     "previous_stop": ["Reservoir"],
     "next_stop": ["Newton Centre"],
-    "description": "Chestnut Hill - Unknown Line - Unknown",
+    "description": "Chestnut Hill",
+    "isHub":false,
     "line_short": "place-chhil"
   },
   {
@@ -723,7 +790,8 @@
     "transfer_stations": ["Prudential"],
     "previous_stop": ["Copley"],
     "next_stop": ["Symphony"],
-    "description": "Prudential - Unknown Line - Unknown",
+    "description": "Prudential",
+    "isHub":false,
     "line_short": "place-prmnl"
   },
   {
@@ -737,7 +805,8 @@
     "transfer_stations": ["Butler"],
     "previous_stop": ["Cedar Grove"],
     "next_stop": ["Milton"],
-    "description": "Butler - Unknown Line - Unknown",
+    "description": "Butler",
+    "isHub":false,
     "line_short": "place-butlr"
   },
   {
@@ -751,7 +820,8 @@
     "transfer_stations": ["Riverside"],
     "previous_stop": ["Woodland"],
     "next_stop": [""],
-    "description": "Riverside - Unknown Line - Unknown",
+    "description": "Riverside",
+    "isHub":false,
     "line_short": "place-river"
   },
   {
@@ -765,7 +835,8 @@
     "transfer_stations": ["Coolidge Corner"],
     "previous_stop": ["Saint Paul Street"],
     "next_stop": ["Summit Avenue"],
-    "description": "Coolidge Corner - Unknown Line - Unknown",
+    "description": "Coolidge Corner",
+    "isHub":false,
     "line_short": "place-cool"
   },
   {
@@ -779,7 +850,8 @@
     "transfer_stations": ["Hawes Street"],
     "previous_stop": ["Saint Paul Street"],
     "next_stop": ["Kent Street"],
-    "description": "Hawes Street - Unknown Line - Unknown",
+    "description": "Hawes Street",
+    "isHub":false,
     "line_short": "place-hwsst"
   },
   {
@@ -793,7 +865,8 @@
     "transfer_stations": ["Brandon Hall"],
     "previous_stop": ["Summit Avenue"],
     "next_stop": ["Fairbanks Street"],
-    "description": "Brandon Hall - Unknown Line - Unknown",
+    "description": "Brandon Hall",
+    "isHub":false,
     "line_short": "place-bndhl"
   },
   {
@@ -807,7 +880,8 @@
     "transfer_stations": ["Gilman Square"],
     "previous_stop": ["East Somerville"],
     "next_stop": ["Magoun Square"],
-    "description": "Gilman Square - Unknown Line - Unknown",
+    "description": "Gilman Square",
+    "isHub":false,
     "line_short": "place-gilmn"
   },
   {
@@ -821,7 +895,8 @@
     "transfer_stations": ["Blandford Street"],
     "previous_stop": ["Kenmore"],
     "next_stop": ["Boston University East"],
-    "description": "Blandford Street - Unknown Line - Unknown",
+    "description": "Blandford Street",
+    "isHub":false,
     "line_short": "place-bland"
   },
   {
@@ -835,7 +910,8 @@
     "transfer_stations": ["Boston University East"],
     "previous_stop": ["Blandford Street"],
     "next_stop": ["Boston University Central"],
-    "description": "Boston University East - Unknown Line - Unknown",
+    "description": "Boston University East",
+    "isHub":false,
     "line_short": "place-buest"
   },
   {
@@ -849,7 +925,8 @@
     "transfer_stations": ["Prudential"],
     "previous_stop": ["Copley"],
     "next_stop": ["Symphony"],
-    "description": "Prudential - Unknown Line - Unknown",
+    "description": "Prudential",
+    "isHub":false,
     "line_short": "place-prmnl"
   },
   {
@@ -863,7 +940,8 @@
     "transfer_stations": ["Cedar Grove"],
     "previous_stop": ["Ashmont"],
     "next_stop": ["Butler"],
-    "description": "Cedar Grove - Unknown Line - Unknown",
+    "description": "Cedar Grove",
+    "isHub":false,
     "line_short": "place-cedgr"
   },
   {
@@ -877,7 +955,8 @@
     "transfer_stations": ["Ball Square"],
     "previous_stop": ["Magoun Square"],
     "next_stop": ["Medford/Tufts"],
-    "description": "Ball Square - Unknown Line - Unknown",
+    "description": "Ball Square",
+    "isHub":false,
     "line_short": "place-balsq"
   },
   {
@@ -891,7 +970,8 @@
     "transfer_stations": ["Mission Park"],
     "previous_stop": ["Fenwood Road"],
     "next_stop": ["Riverway"],
-    "description": "Mission Park - Unknown Line - Unknown",
+    "description": "Mission Park",
+    "isHub":false,
     "line_short": "place-mispk"
   },
   {
@@ -905,7 +985,8 @@
     "transfer_stations": ["Arlington"],
     "previous_stop": ["Boylston"],
     "next_stop": ["Copley"],
-    "description": "Arlington - Unknown Line - Unknown",
+    "description": "Arlington",
+    "isHub":false,
     "line_short": "place-armnl"
   },
   {
@@ -919,7 +1000,8 @@
     "transfer_stations": ["Museum of Fine Arts"],
     "previous_stop": ["Northeastern University"],
     "next_stop": ["Longwood Medical Area"],
-    "description": "Museum of Fine Arts - Unknown Line - Unknown",
+    "description": "Museum of Fine Arts",
+    "isHub":false,
     "line_short": "place-mfa"
   },
   {
@@ -933,7 +1015,8 @@
     "transfer_stations": ["Kenmore"],
     "previous_stop": [""],
     "next_stop": ["Hynes Convention Center"],
-    "description": "Kenmore - Unknown Line - Unknown",
+    "description": "Kenmore",
+    "isHub":false,
     "line_short": "place-kencl"
   },
   {
@@ -947,7 +1030,8 @@
     "transfer_stations": ["Haymarket"],
     "previous_stop": ["North-station"],
     "next_stop": ["State"],
-    "description": "Haymarket - Unknown Line - Unknown",
+    "description": "Haymarket",
+    "isHub":false,
     "line_short": "place-haecl"
   },
   {
@@ -961,7 +1045,8 @@
     "transfer_stations": ["Fenway"],
     "previous_stop": ["Kenmore"],
     "next_stop": ["Longwood"],
-    "description": "Fenway - Unknown Line - Unknown",
+    "description": "Fenway",
+    "isHub":false,
     "line_short": "place-fenwy"
   },
   {
@@ -975,7 +1060,8 @@
     "transfer_stations": ["Boston College"],
     "previous_stop": ["South-station"],
     "next_stop": [""],
-    "description": "Boston College - Unknown Line - Unknown",
+    "description": "Boston College",
+    "isHub":false,
     "line_short": "place-lake"
   },
   {
@@ -989,7 +1075,8 @@
     "transfer_stations": ["Warren Street"],
     "previous_stop": ["Allston Street"],
     "next_stop": ["Washington Street"],
-    "description": "Warren Street - Unknown Line - Unknown",
+    "description": "Warren Street",
+    "isHub":false,
     "line_short": "place-wrnst"
   },
   {
@@ -1003,7 +1090,8 @@
     "transfer_stations": ["Allston Street"],
     "previous_stop": ["Griggs Street"],
     "next_stop": ["Warren Street"],
-    "description": "Allston Street - Unknown Line - Unknown",
+    "description": "Allston Street",
+    "isHub":false,
     "line_short": "place-alsgr"
   },
   {
@@ -1017,7 +1105,8 @@
     "transfer_stations": ["Allston Street"],
     "previous_stop": ["Griggs Street"],
     "next_stop": ["Warren Street"],
-    "description": "Allston Street - Unknown Line - Unknown",
+    "description": "Allston Street",
+    "isHub":false,
     "line_short": "place-alsgr"
   },
   {
@@ -1031,7 +1120,8 @@
     "transfer_stations": ["Newton Highlands"],
     "previous_stop": ["Newton Centre"],
     "next_stop": ["Eliot"],
-    "description": "Newton Highlands - Unknown Line - Unknown",
+    "description": "Newton Highlands",
+    "isHub":false,
     "line_short": "place-newtn"
   },
   {
@@ -1045,7 +1135,8 @@
     "transfer_stations": ["Symphony"],
     "previous_stop": ["Prudential"],
     "next_stop": ["Northeastern University"],
-    "description": "Symphony - Unknown Line - Unknown",
+    "description": "Symphony",
+    "isHub":false,
     "line_short": "place-symcl"
   },
   {
@@ -1059,7 +1150,8 @@
     "transfer_stations": ["Kenmore"],
     "previous_stop": [""],
     "next_stop": ["Hynes Convention Center"],
-    "description": "Kenmore - Unknown Line - Unknown",
+    "description": "Kenmore",
+    "isHub":false,
     "line_short": "place-kencl"
   },
   {
@@ -1073,7 +1165,8 @@
     "transfer_stations": ["Brigham Circle"],
     "previous_stop": ["Longwood Medical Area"],
     "next_stop": ["Fenwood Road"],
-    "description": "Brigham Circle - Unknown Line - Unknown",
+    "description": "Brigham Circle",
+    "isHub":false,
     "line_short": "place-brmnl"
   },
   {
@@ -1087,7 +1180,8 @@
     "transfer_stations": ["Longwood"],
     "previous_stop": ["Fenway"],
     "next_stop": ["Brookline Village"],
-    "description": "Longwood - Unknown Line - Unknown",
+    "description": "Longwood",
+    "isHub":false,
     "line_short": "place-longw"
   },
   {
@@ -1101,7 +1195,8 @@
     "transfer_stations": ["Haymarket"],
     "previous_stop": ["North-station"],
     "next_stop": ["State"],
-    "description": "Haymarket - Unknown Line - Unknown",
+    "description": "Haymarket",
+    "isHub":false,
     "line_short": "place-haecl"
   },
   {
@@ -1115,7 +1210,8 @@
     "transfer_stations": ["Back of the Hill"],
     "previous_stop": ["Riverway"],
     "next_stop": ["Heath Street"],
-    "description": "Back of the Hill - Unknown Line - Unknown",
+    "description": "Back of the Hill",
+    "isHub":false,
     "line_short": "place-bckhl"
   },
   {
@@ -1129,7 +1225,8 @@
     "transfer_stations": ["Gilman Square"],
     "previous_stop": ["East Somerville"],
     "next_stop": ["Magoun Square"],
-    "description": "Gilman Square - Unknown Line - Unknown",
+    "description": "Gilman Square",
+    "isHub":false,
     "line_short": "place-gilmn"
   },
   {
@@ -1143,7 +1240,8 @@
     "transfer_stations": ["Mission Park"],
     "previous_stop": ["Fenwood Road"],
     "next_stop": ["Riverway"],
-    "description": "Mission Park - Unknown Line - Unknown",
+    "description": "Mission Park",
+    "isHub":false,
     "line_short": "place-mispk"
   },
   {
@@ -1157,7 +1255,8 @@
     "transfer_stations": ["Brookline Hills"],
     "previous_stop": ["Brookline Village"],
     "next_stop": ["Beaconsfield"],
-    "description": "Brookline Hills - Unknown Line - Unknown",
+    "description": "Brookline Hills",
+    "isHub":false,
     "line_short": "place-brkhl"
   },
   {
@@ -1171,7 +1270,8 @@
     "transfer_stations": ["Harvard Avenue"],
     "previous_stop": ["Packard's Corner"],
     "next_stop": ["Griggs Street"],
-    "description": "Harvard Avenue - Unknown Line - Unknown",
+    "description": "Harvard Avenue",
+    "isHub":false,
     "line_short": "place-harvd"
   },
   {
@@ -1185,7 +1285,8 @@
     "transfer_stations": ["Northeastern University"],
     "previous_stop": ["Symphony"],
     "next_stop": ["Museum of Fine Arts"],
-    "description": "Northeastern University - Unknown Line - Unknown",
+    "description": "Northeastern University",
+    "isHub":false,
     "line_short": "place-nuniv"
   },
   {
@@ -1199,7 +1300,8 @@
     "transfer_stations": ["Newton Highlands"],
     "previous_stop": ["Newton Centre"],
     "next_stop": ["Eliot"],
-    "description": "Newton Highlands - Unknown Line - Unknown",
+    "description": "Newton Highlands",
+    "isHub":false,
     "line_short": "place-newtn"
   },
   {
@@ -1213,7 +1315,8 @@
     "transfer_stations": ["Cleveland Circle"],
     "previous_stop": ["Englewood Avenue"],
     "next_stop": [""],
-    "description": "Cleveland Circle - Unknown Line - Unknown",
+    "description": "Cleveland Circle",
+    "isHub":false,
     "line_short": "place-clmnl"
   },
   {
@@ -1227,7 +1330,8 @@
     "transfer_stations": ["Dean Road"],
     "previous_stop": ["Tappan Street"],
     "next_stop": ["Englewood Avenue"],
-    "description": "Dean Road - Unknown Line - Unknown",
+    "description": "Dean Road",
+    "isHub":false,
     "line_short": "place-denrd"
   },
   {
@@ -1241,7 +1345,8 @@
     "transfer_stations": ["Brookline Village"],
     "previous_stop": ["Longwood"],
     "next_stop": ["Brookline Hills"],
-    "description": "Brookline Village - Unknown Line - Unknown",
+    "description": "Brookline Village",
+    "isHub":false,
     "line_short": "place-bvmnl"
   },
   {
@@ -1255,7 +1360,8 @@
     "transfer_stations": ["Kent Street"],
     "previous_stop": ["Hawes Street"],
     "next_stop": ["Saint Paul Street"],
-    "description": "Kent Street - Unknown Line - Unknown",
+    "description": "Kent Street",
+    "isHub":false,
     "line_short": "place-kntst"
   },
   {
@@ -1269,7 +1375,8 @@
     "transfer_stations": ["Magoun Square"],
     "previous_stop": ["Gilman Square"],
     "next_stop": ["Ball Square"],
-    "description": "Magoun Square - Unknown Line - Unknown",
+    "description": "Magoun Square",
+    "isHub":false,
     "line_short": "place-mgngl"
   },
   {
@@ -1283,7 +1390,8 @@
     "transfer_stations": ["Saint Mary's Street"],
     "previous_stop": ["Hawes Street"],
     "next_stop": ["Kenmore"],
-    "description": "Saint Mary's Street - Unknown Line - Unknown",
+    "description": "Saint Mary's Street",
+    "isHub":false,
     "line_short": "place-smary"
   },
   {
@@ -1297,7 +1405,8 @@
     "transfer_stations": ["Waban"],
     "previous_stop": ["Eliot"],
     "next_stop": ["Woodland"],
-    "description": "Waban - Unknown Line - Unknown",
+    "description": "Waban",
+    "isHub":false,
     "line_short": "place-waban"
   },
   {
@@ -1311,7 +1420,8 @@
     "transfer_stations": ["Chiswick Road"],
     "previous_stop": ["Sutherland Road"],
     "next_stop": ["Chestnut Hill Avenue"],
-    "description": "Chiswick Road - Unknown Line - Unknown",
+    "description": "Chiswick Road",
+    "isHub":false,
     "line_short": "place-chswk"
   },
   {
@@ -1325,7 +1435,8 @@
     "transfer_stations": ["Coolidge Corner"],
     "previous_stop": ["Saint Paul Street"],
     "next_stop": ["Summit Avenue"],
-    "description": "Coolidge Corner - Unknown Line - Unknown",
+    "description": "Coolidge Corner",
+    "isHub":false,
     "line_short": "place-cool"
   },
   {
@@ -1339,7 +1450,8 @@
     "transfer_stations": ["Sutherland Road"],
     "previous_stop": ["Washington Street"],
     "next_stop": ["Chiswick Road"],
-    "description": "Sutherland Road - Unknown Line - Unknown",
+    "description": "Sutherland Road",
+    "isHub":false,
     "line_short": "place-sthld"
   },
   {
@@ -1353,7 +1465,8 @@
     "transfer_stations": ["Harvard Avenue"],
     "previous_stop": ["Packard's Corner"],
     "next_stop": ["Griggs Street"],
-    "description": "Harvard Avenue - Unknown Line - Unknown",
+    "description": "Harvard Avenue",
+    "isHub":false,
     "line_short": "place-harvd"
   },
   {
@@ -1367,7 +1480,8 @@
     "transfer_stations": ["Longwood"],
     "previous_stop": ["Fenway"],
     "next_stop": ["Brookline Village"],
-    "description": "Longwood - Unknown Line - Unknown",
+    "description": "Longwood",
+    "isHub":false,
     "line_short": "place-longw"
   },
   {
@@ -1381,7 +1495,8 @@
     "transfer_stations": ["Union Square"],
     "previous_stop": ["Lechmere"],
     "next_stop": [""],
-    "description": "Union Square - Unknown Line - Unknown",
+    "description": "Union Square",
+    "isHub":false,
     "line_short": "place-unsqu"
   },
   {
@@ -1395,7 +1510,8 @@
     "transfer_stations": ["Magoun Square"],
     "previous_stop": ["Gilman Square"],
     "next_stop": ["Ball Square"],
-    "description": "Magoun Square - Unknown Line - Unknown",
+    "description": "Magoun Square",
+    "isHub":false,
     "line_short": "place-mgngl"
   },
   {
@@ -1410,6 +1526,7 @@
     "previous_stop": ["Maverick"],
     "next_stop": ["Wood Island"],
     "description": "Airport - Blue Line - Boston",
+    "isHub":false,
     "line_short": "place-aport"
   },
   {
@@ -1424,6 +1541,7 @@
     "previous_stop": ["State"],
     "next_stop": ["Maverick"],
     "description": "Aquarium - Blue Line - Boston",
+    "isHub":false,
     "line_short": "place-aqucl"
   },
   {
@@ -1438,6 +1556,7 @@
     "previous_stop": ["Suffolk Downs"],
     "next_stop": ["Revere Beach"],
     "description": "Beachmont - Blue Line - Revere",
+    "isHub":false,
     "line_short": "place-bmmnl"
   },
   {
@@ -1452,6 +1571,7 @@
     "previous_stop": [""],
     "next_stop": ["Bowdoin"],
     "description": "Bowdoin - Blue Line - Boston",
+    "isHub":false,
     "line_short": "place-bomnl"
   },
   {
@@ -1466,6 +1586,7 @@
     "previous_stop": ["Aquarium"],
     "next_stop": ["Airport"],
     "description": "Maverick - Blue Line - Boston",
+    "isHub":false,
     "line_short": "place-mvbcl"
   },
   {
@@ -1480,6 +1601,7 @@
     "previous_stop": ["Wood Island"],
     "next_stop": ["Suffolk Downs"],
     "description": "Orient Heights - Blue Line - Boston",
+    "isHub":false,
     "line_short": "place-orhte"
   },
   {
@@ -1494,6 +1616,7 @@
     "previous_stop": ["Beachmont"],
     "next_stop": ["Wonderland"],
     "description": "Revere Beach - Blue Line - Revere",
+    "isHub":false,
     "line_short": "place-rbmnl"
   },
   {
@@ -1508,6 +1631,7 @@
     "previous_stop": ["Government Center"],
     "next_stop": ["Aquarium"],
     "description": "State - Blue Line - Boston",
+    "isHub":false,
     "line_short": "place-state"
   },
   {
@@ -1522,6 +1646,7 @@
     "previous_stop": ["Orient Heights"],
     "next_stop": ["Beachmont"],
     "description": "Suffolk Downs - Blue Line - Boston",
+    "isHub":false,
     "line_short": "place-sdmnl"
   },
   {
@@ -1536,6 +1661,7 @@
     "previous_stop": ["Revere Beach"],
     "next_stop": [""],
     "description": "Wonderland - Blue Line - Revere",
+    "isHub":false,
     "line_short": "place-wondl"
   },
   {
@@ -1550,6 +1676,7 @@
     "previous_stop": ["Airport"],
     "next_stop": ["Orient Heights"],
     "description": "Wood Island - Blue Line - Boston",
+    "isHub":false,
     "line_short": "place-wimnl"
   },
   {
@@ -1564,6 +1691,7 @@
     "previous_stop": ["Boston University Central"],
     "next_stop": ["Saint Paul Street"],
     "description": "Boston University West - Green Line - Unknown",
+    "isHub":false,
     "line_short": "place-buwst"
   },
   {
@@ -1578,6 +1706,7 @@
     "previous_stop": ["Brandon Hall"],
     "next_stop": ["Washington Square"],
     "description": "Fairbanks Street - Green Line - Brookline",
+    "isHub":false,
     "line_short": "place-fbkst"
   },
   {
@@ -1592,6 +1721,7 @@
     "previous_stop": ["Brigham Circle"],
     "next_stop": ["Mission Park"],
     "description": "Fenwood Road - Green Line - Boston",
+    "isHub":false,
     "line_short": "place-fenwd"
   },
   {
@@ -1606,6 +1736,7 @@
     "previous_stop": ["Science Park/West End"],
     "next_stop": ["East Somerville"],
     "description": "Lechmere - Green Line - Cambridge",
+    "isHub":false,
     "line_short": "place-lech"
   },
   {
@@ -1620,6 +1751,7 @@
     "previous_stop": ["Fenway"],
     "next_stop": ["Brookline Village"],
     "description": "Longwood Medical Area - Green Line - Boston",
+    "isHub":false,
     "line_short": "place-lngmd"
   },
   {
@@ -1634,6 +1766,7 @@
     "previous_stop": ["Chestnut Hill"],
     "next_stop": ["Newton Highlands"],
     "description": "Newton Centre - Green Line - Newton",
+    "isHub":false,
     "line_short": "place-newto"
   },
   {
@@ -1648,6 +1781,7 @@
     "previous_stop": ["Community College", "Science Park/West End"],
     "next_stop": ["Haymarket"],
     "description": "North-station - Green Line - Boston",
+    "isHub":false,
     "line_short": "place-north"
   },
   {
@@ -1662,6 +1796,7 @@
     "previous_stop": ["Babcock Street"],
     "next_stop": ["Harvard Avenue"],
     "description": "Packard's Corner - Green Line - Boston",
+    "isHub":false,
     "line_short": "place-brico"
   },
   {
@@ -1676,6 +1811,7 @@
     "previous_stop": ["Mission Park"],
     "next_stop": ["Back of the Hill"],
     "description": "Riverway - Green Line - Boston",
+    "isHub":false,
     "line_short": "place-rvrwy"
   },
   {
@@ -1690,6 +1826,7 @@
     "previous_stop": ["Coolidge Corner"],
     "next_stop": ["Brandon Hall"],
     "description": "Summit Avenue - Green Line - Brookline",
+    "isHub":false,
     "line_short": "place-sumav"
   },
   {
@@ -1704,6 +1841,7 @@
     "previous_stop": ["Washington Street"],
     "next_stop": ["Dean Road"],
     "description": "Tappan Street - Green Line - Brookline",
+    "isHub":false,
     "line_short": "place-tapst"
   },
   {
@@ -1718,6 +1856,7 @@
     "previous_stop": ["Warren Street"],
     "next_stop": ["Sutherland Road"],
     "description": "Washington Square - Green Line - Brookline",
+    "isHub":false,
     "line_short": "place-bcnwa"
   },
   {
@@ -1732,6 +1871,7 @@
     "previous_stop": ["Warren Street"],
     "next_stop": ["Sutherland Road"],
     "description": "Washington Street - Green Line - Boston",
+    "isHub":false,
     "line_short": "place-wascm"
   },
   {
@@ -1746,6 +1886,7 @@
     "previous_stop": ["Valley Road"],
     "next_stop": ["Mattapan"],
     "description": "Capen Street - Mattapan Trolley - Milton",
+    "isHub":false,
     "line_short": "place-capst"
   },
   {
@@ -1760,6 +1901,7 @@
     "previous_stop": ["Wellington"],
     "next_stop": ["Sullivan Square"],
     "description": "Assembly - Orange Line - Somerville",
+    "isHub":false,
     "line_short": "place-astao"
   },
   {
@@ -1774,6 +1916,7 @@
     "previous_stop": ["Tufts Medical Center"],
     "next_stop": ["Massachusetts Avenue"],
     "description": "Back Bay - Orange Line - Boston",
+    "isHub":false,
     "line_short": "place-bbsta"
   },
   {
@@ -1788,6 +1931,7 @@
     "previous_stop": ["Downtown Crossing"],
     "next_stop": ["Tufts Medical Center"],
     "description": "Chinatown - Orange Line - Boston",
+    "isHub":false,
     "line_short": "place-chncl"
   },
   {
@@ -1802,6 +1946,7 @@
     "previous_stop": ["Sullivan Square"],
     "next_stop": ["North-station"],
     "description": "Community College - Orange Line - Boston",
+    "isHub":false,
     "line_short": "place-ccmnl"
   },
   {
@@ -1816,6 +1961,7 @@
     "previous_stop": ["Park Street"],
     "next_stop": ["South-station"],
     "description": "Downtown Crossing - Orange Line - Boston",
+    "isHub":false,
     "line_short": "place-dwnxg"
   },
   {
@@ -1830,6 +1976,7 @@
     "previous_stop": ["Green Street"],
     "next_stop": [""],
     "description": "Forest Hills - Orange Line - Boston",
+    "isHub":false,
     "line_short": "place-forhl"
   },
   {
@@ -1844,6 +1991,7 @@
     "previous_stop": ["Stony Brook"],
     "next_stop": ["Forest Hills"],
     "description": "Green Street - Orange Line - Boston",
+    "isHub":false,
     "line_short": "place-grnst"
   },
   {
@@ -1858,6 +2006,7 @@
     "previous_stop": ["Roxbury Crossing"],
     "next_stop": ["Stony Brook"],
     "description": "Jackson Square - Orange Line - Boston",
+    "isHub":false,
     "line_short": "place-jaksn"
   },
   {
@@ -1872,6 +2021,7 @@
     "previous_stop": ["Oak Grove"],
     "next_stop": ["Wellington"],
     "description": "Malden Center - Orange Line - Malden",
+    "isHub":false,
     "line_short": "place-mlmnl"
   },
   {
@@ -1886,6 +2036,7 @@
     "previous_stop": ["Back Bay"],
     "next_stop": ["Ruggles"],
     "description": "Massachusetts Avenue - Orange Line - Boston",
+    "isHub":false,
     "line_short": "place-masta"
   },
   {
@@ -1900,6 +2051,7 @@
     "previous_stop": [""],
     "next_stop": ["Malden Center"],
     "description": "Oak Grove - Orange Line - Malden",
+    "isHub":false,
     "line_short": "place-ogmnl"
   },
   {
@@ -1914,6 +2066,7 @@
     "previous_stop": ["Ruggles"],
     "next_stop": ["Jackson Square"],
     "description": "Roxbury Crossing - Orange Line - Boston",
+    "isHub":false,
     "line_short": "place-rcmnl"
   },
   {
@@ -1928,6 +2081,7 @@
     "previous_stop": ["Massachusetts Avenue"],
     "next_stop": ["Roxbury Crossing"],
     "description": "Ruggles - Orange Line - Boston",
+    "isHub":false,
     "line_short": "place-rugg"
   },
   {
@@ -1942,6 +2096,7 @@
     "previous_stop": ["Jackson Square"],
     "next_stop": ["Green Street"],
     "description": "Stony Brook - Orange Line - Boston",
+    "isHub":false,
     "line_short": "place-sbmnl"
   },
   {
@@ -1956,6 +2111,7 @@
     "previous_stop": ["Assembly"],
     "next_stop": ["Community College"],
     "description": "Sullivan Square - Orange Line - Boston",
+    "isHub":false,
     "line_short": "place-sull"
   },
   {
@@ -1970,6 +2126,7 @@
     "previous_stop": ["Chinatown"],
     "next_stop": ["Back Bay"],
     "description": "Tufts Medical Center - Orange Line - Boston",
+    "isHub":false,
     "line_short": "place-tumnl"
   },
   {
@@ -1984,6 +2141,7 @@
     "previous_stop": ["Malden Center"],
     "next_stop": ["Assembly"],
     "description": "Wellington - Orange Line - Medford",
+    "isHub":false,
     "line_short": "place-welln"
   },
   {
@@ -1998,6 +2156,7 @@
     "previous_stop": [""],
     "next_stop": ["Davis"],
     "description": "Alewife - Red Line - Cambridge",
+    "isHub":false,
     "line_short": "place-alfcl"
   },
   {
@@ -2012,6 +2171,7 @@
     "previous_stop": ["Broadway"],
     "next_stop": ["JFK/UMass"],
     "description": "Andrew - Red Line - Boston",
+    "isHub":false,
     "line_short": "place-andrw"
   },
   {
@@ -2026,6 +2186,7 @@
     "previous_stop": ["Quincy Adams"],
     "next_stop": [""],
     "description": "Braintree - Red Line - Braintree",
+    "isHub":false,
     "line_short": "place-brntn"
   },
   {
@@ -2040,6 +2201,7 @@
     "previous_stop": ["JFK/UMass"],
     "next_stop": ["Andrew"],
     "description": "Broadway - Red Line - Boston",
+    "isHub":false,
     "line_short": "place-brdwy"
   },
   {
@@ -2054,6 +2216,7 @@
     "previous_stop": ["Harvard"],
     "next_stop": ["Kendall/MIT"],
     "description": "Central - Red Line - Cambridge",
+    "isHub":false,
     "line_short": "place-cntsq"
   },
   {
@@ -2068,6 +2231,7 @@
     "previous_stop": ["Kendall/MIT"],
     "next_stop": ["Park Street"],
     "description": "Charles/MGH - Red Line - Boston",
+    "isHub":false,
     "line_short": "place-chmnl"
   },
   {
@@ -2082,6 +2246,7 @@
     "previous_stop": ["Alewife"],
     "next_stop": ["Porter"],
     "description": "Davis - Red Line - Somerville",
+    "isHub":false,
     "line_short": "place-davis"
   },
   {
@@ -2096,6 +2261,7 @@
     "previous_stop": ["Savin Hill"],
     "next_stop": ["Shawmut"],
     "description": "Fields Corner - Red Line - Boston",
+    "isHub":false,
     "line_short": "place-fldcr"
   },
   {
@@ -2110,6 +2276,7 @@
     "previous_stop": ["Davis"],
     "next_stop": ["Central"],
     "description": "Harvard - Red Line - Cambridge",
+    "isHub":false,
     "line_short": "place-harsq"
   },
   {
@@ -2124,6 +2291,7 @@
     "previous_stop": ["Andrew"],
     "next_stop": ["North Quincy"],
     "description": "JFK/UMass - Red Line - Boston",
+    "isHub":false,
     "line_short": "place-jfk"
   },
   {
@@ -2138,6 +2306,7 @@
     "previous_stop": ["Central"],
     "next_stop": ["Charles/MGH"],
     "description": "Kendall/MIT - Red Line - Cambridge",
+    "isHub":false,
     "line_short": "place-knncl"
   },
   {
@@ -2152,6 +2321,7 @@
     "previous_stop": ["JFK/UMass"],
     "next_stop": ["Wollaston"],
     "description": "North Quincy - Red Line - Quincy",
+    "isHub":false,
     "line_short": "place-nqncy"
   },
   {
@@ -2166,6 +2336,7 @@
     "previous_stop": ["Davis"],
     "next_stop": ["Harvard"],
     "description": "Porter - Red Line - Cambridge",
+    "isHub":false,
     "line_short": "place-portr"
   },
   {
@@ -2180,6 +2351,7 @@
     "previous_stop": ["Quincy Center"],
     "next_stop": ["Braintree"],
     "description": "Quincy Adams - Red Line - Quincy",
+    "isHub":false,
     "line_short": "place-qamnl"
   },
   {
@@ -2194,6 +2366,7 @@
     "previous_stop": ["Wollaston"],
     "next_stop": ["Quincy Adams"],
     "description": "Quincy Center - Red Line - Quincy",
+    "isHub":false,
     "line_short": "place-qnctr"
   },
   {
@@ -2208,6 +2381,7 @@
     "previous_stop": ["JFK/UMass"],
     "next_stop": ["Fields Corner"],
     "description": "Savin Hill - Red Line - Boston",
+    "isHub":false,
     "line_short": "place-shmnl"
   },
   {
@@ -2222,6 +2396,7 @@
     "previous_stop": ["Fields Corner"],
     "next_stop": ["Ashmont"],
     "description": "Shawmut - Red Line - Boston",
+    "isHub":false,
     "line_short": "place-smmnl"
   },
   {
@@ -2236,6 +2411,7 @@
     "previous_stop": ["Downtown Crossing"],
     "next_stop": ["Broadway"],
     "description": "South-station - Red Line - Boston",
+    "isHub":false,
     "line_short": "place-sstat"
   },
   {
@@ -2250,6 +2426,7 @@
     "previous_stop": ["North Quincy"],
     "next_stop": ["Quincy Center"],
     "description": "Wollaston - Red Line - Quincy",
+    "isHub":false,
     "line_short": "place-wlsta"
   }
 ]
