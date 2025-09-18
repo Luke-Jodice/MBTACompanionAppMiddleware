@@ -127,21 +127,23 @@ app.get('/hello', (c) => {
 //get train info by name
 app.get('/train/:name', (c) => {
   const trainName = c.req.param('name');
-  const stops = stopManager.getByName(trainName);
+  // const stops = stopManager.getByName(trainName);
+  const stops = data.filter(obj=> obj.name === trainName);
   
   return c.json({
     status: "200",
     train: trainName,
     stops: stops,
-    count: stops.length
+    // count: stops.length
   });
 });
 
 //get train info by id
 app.get('/train/id/:id', (c) => {
   const trainId = c.req.param('id');
-  const stop = stopManager.getById(trainId);
-  
+  // const stop = stopManager.getById(trainId);
+  const stop = data.filter(obj => obj.line_short === trainId)
+
   if (!stop) {
     return c.json({
       status: "404",
@@ -155,9 +157,11 @@ app.get('/train/id/:id', (c) => {
   });
 });
 
-app.get('/orgstops-e', (c) =>{
-return c.json(stopdata)
-});
+
+//Depricating this endpoint as data is wrong
+// app.get('/orgstops-e', (c) =>{
+// return c.json(stopdata)
+// });
 app.get('/maindata', (c) =>{
   return c.json(data)
   });

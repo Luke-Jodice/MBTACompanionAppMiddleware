@@ -27,7 +27,7 @@ class StopManager {
     
     // Get all stops with a specific name
     getByName(name) {
-        return this.stopsByName.get(name) || [];
+        return this.stopsByName.get(name);
     }
     
     // Get all stops on a specific line

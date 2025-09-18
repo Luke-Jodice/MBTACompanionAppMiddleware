@@ -15,21 +15,6 @@
     "line_short": "place-spmnl"
   },
   {
-    "name": "South Station",
-    "latitude": 42.3520,  
-    "longitude": -71.0552,  
-    "municipality": "Boston",
-    "wheelchair_boarding": 1,
-    "platform_name": "Side platforms (Red Line), Side platforms (Silver Line underground), Street platform (Silver Line surface)",  
-    "train_line": ["Red Line"],  
-    "transfer_stations": ["Downtown Crossing"],
-    "previous_stop": ["Downtown Crossing"],
-    "next_stop": [""], 
-    "description": "South Station - Red Line",  
-    "isHub": true,
-    "line_short": "place-sstat" 
-  },  
-  {
     "name": "Boylston",
     "latitude": 42.353214,
     "longitude": -71.064545,
