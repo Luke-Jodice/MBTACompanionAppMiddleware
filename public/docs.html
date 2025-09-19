@@ -5,6 +5,10 @@
   <title>T-Bridge API Documentation</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <style>
+    ul {display: flex; list-style: none; text-align: center; justify-content: center; margin:0; padding:0}
+    li {display: inline-block; padding-right: 10px;}
+    li a{text-decoration: none; color:#333}
+    li a:hover{font-weight: bold;}
     body { font-family: sans-serif; margin: 2em; line-height: 1.6; color: #333; }
     h1 { border-bottom: 2px solid #ccc; padding-bottom: 0.3em; }
     h2 { margin-top: 1.5em; }
@@ -34,9 +38,15 @@
   "timestamp": "2025-09-15T12:34:56.789Z"
 }</code></pre>
   </section> -->
+<ul>
+  <li><a href="#train-info">Train Information</a></li>
+  <li><a href="#lines">Lines</a></li>
+  <li><a href="#static">Static Data</a></li>
+  <li><a href="#live">Live Data</a></li>
+</ul>
 
   <section>
-    <h2>Train Information</h2>
+    <h2 id="train-info">Train Information</h2>
 
     <p class="path"><code>GET /train/:name</code></p>
     <p>Returns stop data for all stops that match the given <code>name</code>.</p>
@@ -64,7 +74,7 @@
   </section>
 
   <section>
-    <h2>Lines</h2>
+    <h2 id="lines">Lines</h2>
 
     <p class="path"><code>GET /line/:name</code></p>
     <p>Returns all stops along the given line name, with a total count.</p>
@@ -80,7 +90,7 @@
   </section>
 
   <section>
-    <h2>Static Data</h2>
+    <h2 id="static">Static Data</h2>
 
     <p class="path"><code>GET /orgstops-e</code></p>
     <p>Returns the raw stop data JSON used internally.</p>
@@ -97,7 +107,7 @@
   </section>
 
   <section>
-    <h2>Live Data</h2>
+    <h2 id="live">Live Data</h2>
 
     <p class="path"><code>GET /times/both/:stopId/:nextnum</code></p>
     <p>Returns the next <code>nextnum</code> inbound and outbound trains for the stop with ID <code>stopId</code>.</p>
@@ -130,6 +140,6 @@
   <footer style="margin-top:2em; font-size:0.9em; color:#666;">
     &copy; 2025 T-Bridge API
   </footer>
-
+<div id="bottom"></div>
 </body>
 </html>

@@ -209,6 +209,24 @@ app.get('/line/:name', (c) => {
   });
 });
 
+app.get('/stop/next/:stop', (c) =>{
+  const curstop = c.req.param('stop');
+  const stop = data.filter(obj => obj.name === curstop);
+  const nextStopData = data.find(obj => obj.name === stop.next_stop);
+
+  const resp ={
+    currstop : stop,
+    nextstop: nextStopData
+  }
+  console.log(resp)
+
+  return c.json({
+    status: "200",
+    resp:resp
+  });
+
+});
+
 
 //Train Route
 app.get('/route/:start/:end', (c) =>{
