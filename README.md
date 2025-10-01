@@ -1,4 +1,4 @@
-# MBTA Middleware API
+# MBTA SDK
 
 A fast, lightweight API server built with Bun and Hono that provides structured access to MBTA (Massachusetts Bay Transportation Authority) rapid transit data. This project serves as a middleware layer that processes and organizes MBTA route and stop information for easy consumption by frontend applications.
 
